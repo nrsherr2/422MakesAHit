@@ -4,16 +4,6 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 
-# Client Authorization
-# client: c27affe22ea041da8d4f6c113f73a296
-# secret: 4e1a8c6c8d424595a9479e2c288f6582
-client_credentials_manager = SpotifyClientCredentials('c27affe22ea041da8d4f6c113f73a296', '4e1a8c6c8d424595a9479e2c288f6582')
-sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
-
-# Get playlist for training "CSC 422 Final Playlist"
-# TODO: batching
-training_playlist = sp.user_playlist_tracks('1280109077', '2XfT7nvDpRuwPPPXFrDLTK')
-
 # List of genres for classification
 genre_list = ["acoustic",
     "afrobeat",
@@ -142,56 +132,91 @@ genre_list = ["acoustic",
     "work-out",
 "world-music"]
 
-keys = ['name', 'artist', 'album_title', 'explicit', 'popularity', 'acousticness', 'danceability', 'energy',
+# List of attributes we will store per track
+keys = ['name', 'artist', 'album', 'explicit', 'popularity', 'acousticness', 'danceability', 'energy',
         'instrumentalness', 'key', 'liveness', 'loudness', 'mode',
         'speechiness', 'tempo', 'time_signature', 'valence', 'genre']
 
-# Dataframe reprentation of playlist
-tdf = pd.DataFrame(columns = keys)
 
-# Build Training Set
-for item in training_playlist['items']:
-    # track fields
-    name = item['track']['name']
-    artist = item['track']['artists'][0]['name']
-    artist_id = item['track']['artists'][0]['id']
-    artist_object = sp.artist(artist_id)
-    artist_genres = artist_object['genres']
-    # TODO: find most popular genre out of list of artist's gengres
-    genre = '<<TBD>>'
-    album_id = item['track']['album']['id']
-    album_object = sp.album(album_id)
-    album_title = album_object['name']
+# Client Authorization
+def connect_to_API():
+    # client: c27affe22ea041da8d4f6c113f73a296
+    # secret: 4e1a8c6c8d424595a9479e2c288f6582
+    client_credentials_manager = SpotifyClientCredentials('c27affe22ea041da8d4f6c113f73a296', '4e1a8c6c8d424595a9479e2c288f6582')
+    return spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-    # track attributes
-    explicit = item['track']['explicit']
-    popularity = item['track']['popularity']
-    track_id = item['track']['id']
-    audio_features = sp.audio_features(track_id)
-    acousticness = audio_features[0]['acousticness']
-    danceability = audio_features[0]['danceability']
-    energy = audio_features[0]['energy']
-    instrumentalness = audio_features[0]['instrumentalness']
-    key = audio_features[0]['key']
-    liveness = audio_features[0]['liveness']
-    loudness = audio_features[0]['loudness']
-    mode = audio_features[0]['mode']
-    speechiness = audio_features[0]['speechiness']
-    tempo = audio_features[0]['tempo']
-    time_signature = audio_features[0]['time_signature']
-    valence = audio_features[0]['valence']
 
-    # create a list to represent a single song entry in the trainig_df(tdf)
-    song = [name, artist, album_title, explicit, popularity, acousticness, danceability, energy, instrumentalness, key, liveness, loudness, mode,
-          speechiness, tempo, time_signature, valence, genre]
+# Copy spotify playlist into a usable data frame
+def populate(tdf, training_playlist_batch, sp):
+    for item in training_playlist_batch['items']:
+        # track fields
+        name = item['track']['name']
+        artist = item['track']['artists'][0]['name']
+        # TODO: find most popular genre out of list of artist's genres
+        #artist_id = item['track']['artists'][0]['id']
+        #artist_object = sp.artist(artist_id)
+        #artist_genres = artist_object['genres']
+        genre = '<<TBD>>'
+        album = sp.album(item['track']['album']['id'])['name']
 
-    df = {}
-    for i in range(0,len(keys)):
-        key = keys[i]
-        df[key] = song[i]
+        # track attributes
+        explicit = item['track']['explicit']
+        popularity = item['track']['popularity']
+        audio_features = sp.audio_features(item['track']['id'])
+        acousticness = audio_features[0]['acousticness']
+        danceability = audio_features[0]['danceability']
+        energy = audio_features[0]['energy']
+        instrumentalness = audio_features[0]['instrumentalness']
+        key = audio_features[0]['key']
+        liveness = audio_features[0]['liveness']
+        loudness = audio_features[0]['loudness']
+        mode = audio_features[0]['mode']
+        speechiness = audio_features[0]['speechiness']
+        tempo = audio_features[0]['tempo']
+        time_signature = audio_features[0]['time_signature']
+        valence = audio_features[0]['valence']
 
-    # add to the tdf
-    tdf = tdf.append(df, ignore_index=True)
+        # create a list to represent a single song entry
+        song = [name, artist, album, explicit, popularity, acousticness, danceability, energy, instrumentalness,
+                key, liveness, loudness, mode,
+                speechiness, tempo, time_signature, valence, genre]
 
-print(tdf)
+        # hacky way to merge this entry into the overall data frame
+        df = {}
+        for i in range(0, len(keys)):
+            key = keys[i]
+            df[key] = song[i]
 
+        # add to the tdf
+        tdf = tdf.append(df, ignore_index=True)
+
+    return tdf
+
+
+# Start of execution
+def main():
+    sp = connect_to_API()
+
+    # Dataframe reprentation of playlist for training
+    tdf = pd.DataFrame(columns=keys)
+
+    # Batch API requests, can only get 100 songs at a time from playlist
+    total_tracks = 253
+    current_index = 0
+
+    while current_index < total_tracks:
+        # Get playlist for training "CSC 422 Final Playlist"
+        training_playlist_batch = sp.user_playlist_tracks('1280109077', '2XfT7nvDpRuwPPPXFrDLTK', offset=current_index)
+        tdf = populate(tdf, training_playlist_batch, sp)
+        current_index += 100
+
+    # verify output
+    print(tdf)
+
+    # export to csv (use later)
+    # tdf.to_csv('spotify_training_data.csv')
+
+
+# necessary to start execution at main
+if __name__ == "__main__":
+    main()
