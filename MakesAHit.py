@@ -2,135 +2,136 @@
 
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+import time
 import pandas as pd
 
 # List of genres for classification
 genre_list = ["acoustic",
-              "afrobeat",
-              "alt-rock",
-              "alternative",
-              "ambient",
-              "anime",
-              "black-metal",
-              "bluegrass",
-              "blues",
-              "bossanova",
-              "brazil",
-              "breakbeat",
-              "british",
-              "cantopop",
-              "chicago-house",
-              "children",
-              "chill",
-              "classical",
-              "club",
-              "comedy",
-              "country",
-              "dance",
-              "dancehall",
-              "death-metal",
-              "deep-house",
-              "detroit-techno",
-              "disco",
-              "disney",
-              "drum-and-bass",
-              "dub",
-              "dubstep",
-              "edm",
-              "electro",
-              "electronic",
-              "emo",
-              "folk",
-              "forro",
-              "french",
-              "funk",
-              "garage",
-              "german",
-              "gospel",
-              "goth",
-              "grindcore",
-              "groove",
-              "grunge",
-              "guitar",
-              "happy",
-              "hard-rock",
-              "hardcore",
-              "hardstyle",
-              "heavy-metal",
-              "hip-hop",
-              "holidays",
-              "honky-tonk",
-              "house",
-              "idm",
-              "indian",
-              "indie",
-              "indie-pop",
-              "industrial",
-              "iranian",
-              "j-dance",
-              "j-idol",
-              "j-pop",
-              "j-rock",
-              "jazz",
-              "k-pop",
-              "kids",
-              "latin",
-              "latino",
-              "malay",
-              "mandopop",
-              "metal",
-              "metal-misc",
-              "metalcore",
-              "minimal-techno",
-              "movies",
-              "mpb",
-              "new-age",
-              "new-release",
-              "opera",
-              "pagode",
-              "party",
-              "philippines-opm",
-              "piano",
-              "pop",
-              "pop-film",
-              "post-dubstep",
-              "power-pop",
-              "progressive-house",
-              "psych-rock",
-              "punk",
-              "punk-rock",
-              "r-n-b",
-              "rainy-day",
-              "reggae",
-              "reggaeton",
-              "road-trip",
-              "rock",
-              "rock-n-roll",
-              "rockabilly",
-              "romance",
-              "sad",
-              "salsa",
-              "samba",
-              "sertanejo",
-              "show-tunes",
-              "singer-songwriter",
-              "ska",
-              "sleep",
-              "songwriter",
-              "soul",
-              "soundtracks",
-              "spanish",
-              "study",
-              "summer",
-              "swedish",
-              "synth-pop",
-              "tango",
-              "techno",
-              "trance",
-              "trip-hop",
-              "turkish",
-              "work-out",
-              "world-music"]
+    "afrobeat",
+    "alt-rock",
+    "alternative",
+    "ambient",
+    "anime",
+    "black-metal",
+    "bluegrass",
+    "blues",
+    "bossanova",
+    "brazil",
+    "breakbeat",
+    "british",
+    "cantopop",
+    "chicago-house",
+    "children",
+    "chill",
+    "classical",
+    "club",
+    "comedy",
+    "country",
+    "dance",
+    "dancehall",
+    "death-metal",
+    "deep-house",
+    "detroit-techno",
+    "disco",
+    "disney",
+    "drum-and-bass",
+    "dub",
+    "dubstep",
+    "edm",
+    "electro",
+    "electronic",
+    "emo",
+    "folk",
+    "forro",
+    "french",
+    "funk",
+    "garage",
+    "german",
+    "gospel",
+    "goth",
+    "grindcore",
+    "groove",
+    "grunge",
+    "guitar",
+    "happy",
+    "hard-rock",
+    "hardcore",
+    "hardstyle",
+    "heavy-metal",
+    "hip-hop",
+    "holidays",
+    "honky-tonk",
+    "house",
+    "idm",
+    "indian",
+    "indie",
+    "indie-pop",
+    "industrial",
+    "iranian",
+    "j-dance",
+    "j-idol",
+    "j-pop",
+    "j-rock",
+    "jazz",
+    "k-pop",
+    "kids",
+    "latin",
+    "latino",
+    "malay",
+    "mandopop",
+    "metal",
+    "metal-misc",
+    "metalcore",
+    "minimal-techno",
+    "movies",
+    "mpb",
+    "new-age",
+    "new-release",
+    "opera",
+    "pagode",
+    "party",
+    "philippines-opm",
+    "piano",
+    "pop",
+    "pop-film",
+    "post-dubstep",
+    "power-pop",
+    "progressive-house",
+    "psych-rock",
+    "punk",
+    "punk-rock",
+    "r-n-b",
+    "rainy-day",
+    "reggae",
+    "reggaeton",
+    "road-trip",
+    "rock",
+    "rock-n-roll",
+    "rockabilly",
+    "romance",
+    "sad",
+    "salsa",
+    "samba",
+    "sertanejo",
+    "show-tunes",
+    "singer-songwriter",
+    "ska",
+    "sleep",
+    "songwriter",
+    "soul",
+    "soundtracks",
+    "spanish",
+    "study",
+    "summer",
+    "swedish",
+    "synth-pop",
+    "tango",
+    "techno",
+    "trance",
+    "trip-hop",
+    "turkish",
+    "work-out",
+"world-music"]
 
 # List of attributes we will store per track
 keys = ['name', 'artist', 'album', 'explicit', 'popularity', 'acousticness', 'danceability', 'energy',
@@ -142,8 +143,7 @@ keys = ['name', 'artist', 'album', 'explicit', 'popularity', 'acousticness', 'da
 def connect_to_API():
     # client: c27affe22ea041da8d4f6c113f73a296
     # secret: 4e1a8c6c8d424595a9479e2c288f6582
-    client_credentials_manager = SpotifyClientCredentials('c27affe22ea041da8d4f6c113f73a296',
-                                                          '4e1a8c6c8d424595a9479e2c288f6582')
+    client_credentials_manager = SpotifyClientCredentials('c27affe22ea041da8d4f6c113f73a296', '4e1a8c6c8d424595a9479e2c288f6582')
     return spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 
@@ -167,17 +167,15 @@ def get_genre(artist_genres):
     return true_genre
 
 
+# Copy spotify playlist into a usable data frame
 def populate(tdf, training_playlist_batch, sp):
     for item in training_playlist_batch['items']:
         # track fields
         name = item['track']['name']
         artist = item['track']['artists'][0]['name']
-        print(artist)
-        artist_id = item['track']['artists'][0]['id']
-        artist_object = sp.artist(artist_id)
+        artist_object = sp.artist(item['track']['artists'][0]['id'])
         artist_genres = artist_object['genres']
         genre = get_genre(artist_genres)
-        print(genre)
         album = sp.album(item['track']['album']['id'])['name']
 
         # track attributes
@@ -222,7 +220,7 @@ def main():
     tdf = pd.DataFrame(columns=keys)
 
     # Batch API requests, can only get 100 songs at a time from playlist
-    total_tracks = 253
+    total_tracks = 544
     current_index = 0
 
     while current_index < total_tracks:
@@ -230,12 +228,14 @@ def main():
         training_playlist_batch = sp.user_playlist_tracks('1280109077', '2XfT7nvDpRuwPPPXFrDLTK', offset=current_index)
         tdf = populate(tdf, training_playlist_batch, sp)
         current_index += 100
+        print(current_index)
+        time.sleep(5)
 
     # verify output
     print(tdf)
 
     # export to csv (use later)
-    # tdf.to_csv('spotify_training_data.csv')
+    tdf.to_csv('spotify_training_data.csv')
 
 
 # necessary to start execution at main
