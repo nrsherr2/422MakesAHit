@@ -1,11 +1,12 @@
 # Group 05 - Spotify Hit Prediction Project
 
 # Step 1: Read in data and perform PCA
-spotify_rawdata <- read.csv("top2018.csv")
+spotify_rawdata <- read.csv("spotify_training_data.csv")
 
-spotify_pca <- prcomp(spotify_rawdata[,c(4:15)], center=TRUE, scale=TRUE)
+# Select numerical components for PCA
+spotify_pca <- prcomp(spotify_rawdata[,c(6:18)], center=TRUE, scale=TRUE)
 summary(spotify_pca)
-# PCA summary seems to indicate PC1-6 are important
+# PCA summary seems to indicate PC1-10 is enough (~92% variance explained)
 
 # Creating a Scree plot to confirm
 std_devs <- spotify_pca$sdev
@@ -13,7 +14,6 @@ vars <- std_devs^2
 prop_var_explained <- vars / sum(vars) # variance explained by each PC
 
 plot(prop_var_explained, xlab = "Principal Component", ylab = "Proportion of Variance Explained", type = "b")
-# Slope seems pretty consistent past PC3 but that explains only 44% variance
 
 # Get output per component
 spotify_pca$rotation
@@ -21,9 +21,24 @@ spotify_pca$rotation
 # Graph all components 
 biplot(spotify_pca)
 
-# PCA results seem inconclusive.
+# Correlation check
+correlationMatrix = cor(spotify_rawdata[,c(6:18)])
+round(correlationMatrix, 2)
+
+# Generate some plots
+autoplot(spotify_pca, data = spotify_rawdata, colour = 'genre')
+
+# Some analysis by genre
+rock_dataset = subset(spotify_rawdata, genre == "rock")
+hist(rock_dataset$loudness, main="Distribution of Loudness Scores for Rock Songs")
+
+pop_dataset = subset(spotify_rawdata, genre == "pop")
+hist(pop_dataset$danceability, main="Distribution of Danceability Scores for Pop Songs")
+
+
+
 #---------------------------------------------------------------------------------------------------------------
-# Trying stepwise variable selection
+# Trying stepwise variable selection (IGNORE THiS: MUST BE REFACTORED)
 
 # adding rank in top 100 as an explicit column
 spotify_rawdata$song_rank = c(1:100)
