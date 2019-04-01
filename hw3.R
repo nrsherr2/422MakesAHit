@@ -82,8 +82,8 @@ alda_regression <- function(x_train, x_test, y_train, regression_type){
     
     # output format
     mylist <- c(myfit, myprediction)
-    return(mylist)
     
+    return(mylist)
     
   }else if(regression_type == 'ridge'){
     # ~ 2-3 lines of code
@@ -96,21 +96,22 @@ alda_regression <- function(x_train, x_test, y_train, regression_type){
     # predict on x_test using the model that gives least MSE
     myprediction <- predict(myfit, x_test)
     mylist <- c(myfit, myprediction)
+    
     return(mylist)
-    
-    
+  
   }else{
     # ~ 2-3 lines of code
     # write code for lasso regression here
     # 10 fold cross validation, with mse (mean squared error) as the measure
     # the hyperparameter you are tuning here is lambda
-    mylambda <- cv.glmnet(x_train, y_train, family = "gaussian", type.measure="mse", nfolds=10, alpha = 1)
+    mylambda <- cv.glmnet(x_train, y_train, family = "gaussian", type.measure="mse", nfolds=10, alpha=1)
     myfit <- glmnet(x_train, y_train, family = "gaussian", lambda=mylambda$lambda.min, alpha=1, standardize = TRUE)
     
     # predict on x_test using the model that gives least MSE
-    myprediction <- predict(myfit, x_test)
+    myprediction <- predict(mylambda, x_test, s=mylambda$lambda.min)
     mylist <- c(myfit, myprediction)
-    return(myprediction)
+    
+    return(mylist)
   }
   
 }
@@ -129,7 +130,6 @@ calculate_rmse <- function(y_true, y_pred){
 }
 
 regression_compare_rmse <- function(y_test, linear_regression_prediction, ridge_prediction, lasso_prediction){
-  # ~ 8-10 lines of code
   # Calculate the rmse for each of the regression methods: 'linear', 'ridge', 'lasso'
   # Return the best method and its RMSE (i.e., method with least RMSE)
   
@@ -151,8 +151,28 @@ regression_compare_rmse <- function(y_test, linear_regression_prediction, ridge_
   # Allowed packages: R-base
   # You are given the implementation for calculate_rmse (see above) 
   
+  # find the three RMSE scores
+  rmse_linear = calculate_rmse(y_test, linear_regression_prediction)
+  rmse_ridge = calculate_rmse(y_test, ridge_prediction)
+  rmse_lasso = calculate_rmse(y_test, lasso_prediction)
   
+  # get the best one
+  scores <- c(rmse_linear, rmse_ridge, rmse_lasso)
+  scores <- sort(scores, decreasing=F)
   
+  best_rmse = ''
+  if (scores[1]==rmse_linear) {
+    best_rmse = 'linear'
+  } else if (scores[1]==rmse_ridge) {
+    best_rmse = 'ridge'
+  } else {
+    best_rmse = 'lasso'
+  }
+  
+  # output
+  mylist = c(best_rmse, scores[1], c(rmse_linear, rmse_ridge, rmse_lasso))
+  
+  return(mylist)
 }
 
 
