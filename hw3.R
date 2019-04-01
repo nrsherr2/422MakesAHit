@@ -90,13 +90,13 @@ alda_regression <- function(x_train, x_test, y_train, regression_type){
     # write code for ridge regression here
     # 10 fold cross validation, with mse (mean squared error) as the measure
     # the hyperparameter you are tuning here is lambda
-    mylambda <- cv.glmnet(x_train, y_train, type.measure='mse', nfolds=10)
-    print(mylambda)
-    myfit <- glmnet(x_train, y_train, lambda=mylambda$lambda.1se, alpha=0, standardize = TRUE)
+    mylambda <- cv.glmnet(x_train, y_train, family = "gaussian", type.measure="mse", nfolds=10, alpha=0)
+    myfit <- glmnet(x_train, y_train, family = "gaussian", lambda=mylambda$lambda.min, alpha=0, standardize = TRUE)
     
     # predict on x_test using the model that gives least MSE
-    myprediction <- predict(myfit, x_test, s='lambda.min')
-    return(myprediction)
+    myprediction <- predict(myfit, x_test)
+    mylist <- c(myfit, myprediction)
+    return(mylist)
     
     
   }else{
@@ -104,7 +104,13 @@ alda_regression <- function(x_train, x_test, y_train, regression_type){
     # write code for lasso regression here
     # 10 fold cross validation, with mse (mean squared error) as the measure
     # the hyperparameter you are tuning here is lambda
+    mylambda <- cv.glmnet(x_train, y_train, family = "gaussian", type.measure="mse", nfolds=10, alpha = 1)
+    myfit <- glmnet(x_train, y_train, family = "gaussian", lambda=mylambda$lambda.min, alpha=1, standardize = TRUE)
     
+    # predict on x_test using the model that gives least MSE
+    myprediction <- predict(myfit, x_test)
+    mylist <- c(myfit, myprediction)
+    return(myprediction)
   }
   
 }
