@@ -9,45 +9,6 @@
 # Nick Sherril
 #########
 
-# set a seed for reproducibility
-set.seed(100)
-############################################################################################################
-# Helper functions
-# TA will use something similar to load data for his own system
-# For regression data
-load_data <- function(data_folder='./data/', learning_type){
-  # this method will read data for regression/classification and return list containing two data frames:
-  
-  # for regression (specified by learning_type = "regression") 
-  # first 19 columns (x1-x19) are attributes, last column (y) is your dependent variable (continuous))
-  
-  # for classification (specified by learning_type = "classification")
-  # first 4 columns (x1-x4) are attributes, last column (class) is your dependent variable (continuous))
-  
-  # please note, TA WILL use the same training dataset, but a different test set 
-  # TA's test set will have the same attributes, but may contain different number of data points
-  train_df <- read.csv(paste0(data_folder, learning_type, '-train.csv'), header=T)
-  test_df <- read.csv(paste0(data_folder, learning_type, '-test.csv'), header=T)
-  
-  # make sure dependent variable is of type factor if this is classification
-  if(learning_type == 'classification'){
-    train_df$class <- as.factor(train_df$class)
-    test_df$class <- as.factor(test_df$class)
-  }
-  return(list(train_df, test_df))
-}
-
-# regression data
-reg_data <- load_data(data_folder='./data/', learning_type='regression')
-reg_train_df <- reg_data[[1]]
-reg_test_df <- reg_data[[2]]
-
-# use this one for testing (output on piazza for RMSE)
-# preds <- alda_regression(reg_train_df[,1:19], sample_reg_data[,1:19], reg_train_df[,20], "linear")
-# calculate_rmse(sample_reg_data[,20], preds)
-sample_reg_data <- read.csv("data/regression_sample_test.csv", header=TRUE)
-sample_cls_data <- read.csv("data/classification_sample_test.csv", header=TRUE)
-
 # Write code for regression here
 alda_regression <- function(x_train, x_test, y_train, regression_type){
   # Perform regression (linear/ridge/lasso)
