@@ -45,7 +45,8 @@ reg_test_df <- reg_data[[2]]
 # use this one for testing (output on piazza for RMSE)
 # preds <- alda_regression(reg_train_df[,1:19], sample_reg_data[,1:19], reg_train_df[,20], "linear")
 # calculate_rmse(sample_reg_data[,20], preds)
-sample_reg_data <- read.csv("regression_sample_test.csv", header=TRUE)
+sample_reg_data <- read.csv("data/regression_sample_test.csv", header=TRUE)
+sample_cls_data <- read.csv("data/classification_sample_test.csv", header=TRUE)
 
 # Write code for regression here
 alda_regression <- function(x_train, x_test, y_train, regression_type){
@@ -78,10 +79,10 @@ alda_regression <- function(x_train, x_test, y_train, regression_type){
     myfit <- glmnet(x_train, y_train, lambda=0)
     
     # predict using the model
-    myprediction <- predict(myfit, x_test)
+    myprediction <- predict(myfit, x_test)[,1]
     
     # output format
-    mylist <- c(myfit, myprediction)
+    mylist <- list(myfit, myprediction)
     
     return(mylist)
     
@@ -94,8 +95,8 @@ alda_regression <- function(x_train, x_test, y_train, regression_type){
     myfit <- glmnet(x_train, y_train, family = "gaussian", lambda=mylambda$lambda.min, alpha=0, standardize = TRUE)
     
     # predict on x_test using the model that gives least MSE
-    myprediction <- predict(myfit, x_test)
-    mylist <- c(myfit, myprediction)
+    myprediction <- predict(myfit, x_test)[,1]
+    mylist <- list(myfit, myprediction)
     
     return(mylist)
   
@@ -108,8 +109,8 @@ alda_regression <- function(x_train, x_test, y_train, regression_type){
     myfit <- glmnet(x_train, y_train, family = "gaussian", lambda=mylambda$lambda.min, alpha=1, standardize = TRUE)
     
     # predict on x_test using the model that gives least MSE
-    myprediction <- predict(mylambda, x_test, s=mylambda$lambda.min)
-    mylist <- c(myfit, myprediction)
+    myprediction <- predict(mylambda, x_test, s=mylambda$lambda.min)[,1]
+    mylist <- list(myfit, myprediction)
     
     return(mylist)
   }
@@ -212,30 +213,41 @@ alda_svm <- function(x_train, x_test, y_train, kernel_name){
   
   # Hints: See if you can use the 'tune' function in e1071 for cross validation
    if(kernel_name == "radial"){
-    # ~1-2 lines 
-  
+    # ~1-2 lines
      
+     tuned_model<-tune.svm(x=x_train,y=y_train,data=x_test,scale=FALSE,kernel="radial",cost=c(0.01, 0.1, 1, 10),cross=10,gamma=c(0.05, 0.5, 1, 2))
+     return(list(tuned_model$best.model,tuned_model$best.model$fitted))
      
   }else if(kernel_name == 'polynomial'){
     #~1-2 lines
-    
+    tuned_model<-tune.svm(x=x_train,y=y_train,data=x_test,scale=FALSE,kernel="polynomial",cost=c(0.01, 0.1, 1, 10),cross=10,gamma=c(0.05, 0.5, 1, 2), degree = c(1,2,3))
+    return(list(tuned_model$best.model,tuned_model$best.model$fitted))
     
     
   }else if(kernel_name == 'sigmoid'){
     #~1-2 lines
-    
+    tuned_model<-tune.svm(x=x_train,y=y_train,data=x_test,scale=FALSE,kernel="sigmoid",cost=c(0.01, 0.1, 1, 10),cross=10,gamma=c(0.05, 0.5, 1, 2))
+    return(list(tuned_model$best.model,tuned_model$best.model$fitted))
     
     
   }else{ # default linear kernel
     #~1-2 lines
-    
-    
-    
+    tuned_model<-tune.svm(x=x_train,y=y_train,data=x_test,scale=FALSE,kernel="linear",cost=c(0.01, 0.1, 1, 10),cross=10)
+    return(list(tuned_model$best.model,tuned_model$best.model$fitted))
   }
   
 }
-
-
+#res<-alda_svm(x_train=clf_train_df[,-5],x_test = sample_cls_data[,-5], y_train = clf_train_df[,5], kernel_name = 'linear')
+calc_score<-function(test,pred){
+  count<-0.0
+  for(idx in 1:length(test)){
+    if(test[idx]==pred[idx]){
+      count<-count+1
+    }
+  }
+  count<-count/length(test)
+  return(count)
+}
 classification_compare_accuracy <- function(y_test, linear_kernel_prediction, radial_kernel_prediction, 
                                             polynomial_kernel_prediction, sigmoid_kernel_prediction){
   # ~ 6-10 lines of code
@@ -264,7 +276,20 @@ classification_compare_accuracy <- function(y_test, linear_kernel_prediction, ra
     # third value, a vector with the overall accuracies of all methods in this order: c(linear-svm's accuracy, radial-svm's accuracy, poly-svm's accuracy, sigmoid-svm's accuracy)
   # Allowed packages: R-base
   # Note that I asked you to implement accuracy calculation - do not use a library for this
-  
-  
+  lin<-calc_score(y_test,linear_kernel_prediction)
+  rad<-calc_score(y_test,radial_kernel_prediction)
+  pol<-calc_score(y_test,polynomial_kernel_prediction)
+  sig<-calc_score(y_test,sigmoid_kernel_prediction)
+  scores<-sort(c(lin,rad,pol,sig),decreasing = F)
+  best<-""
+  if(scores[1]==lin){
+    best<-"svm-linear"
+  }else if(scores[1]==rad){
+    best<-"svm-radial"
+  }else if(scores[1]==sig){
+    best<-"svm-sigmoid"
+  }else{
+    best<-"svm-poly"
+  }
+  return (list(best,scores[1],c(lin,rad,poly,sig)))
 }
-
