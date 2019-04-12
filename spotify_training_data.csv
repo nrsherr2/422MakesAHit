@@ -1,0 +1,564 @@
+,name,artist,album,explicit,popularity,acousticness,danceability,energy,instrumentalness,key,liveness,loudness,mode,speechiness,tempo,time_signature,valence,genre
+0,Purple Haze,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,55,0.00627,0.529,0.898,0.728,2,0.0668,-5.249,1,0.0786,108.599,4,0.434,rock
+1,Fire,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,46,0.00189,0.476,0.942,0.0331,9,0.346,-5.185,1,0.111,153.475,4,0.567,rock
+2,The Wind Cries Mary,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,45,0.346,0.481,0.488,0.00896,10,0.238,-10.538,1,0.0509,79.237,4,0.302,rock
+3,Hey Joe,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,53,0.00351,0.349,0.757,0.329,9,0.0332,-5.659,1,0.0359,166.717,4,0.569,rock
+4,All Along the Watchtower,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,59,0.00282,0.429,0.812,2.44e-05,8,0.0882,-6.252,1,0.0657,113.279,4,0.625,rock
+5,Stone Free,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,44,0.014,0.54,0.83,0.000121,2,0.221,-5.676,1,0.0605,133.752,4,0.832,rock
+6,Crosstown Traffic,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,44,0.254,0.482,0.96,2.43e-06,0,0.294,-5.269,0,0.126,113.263,4,0.544,rock
+7,Manic Depression,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,39,0.0135,0.339,0.97,0.111,1,0.154,-5.03,1,0.136,149.392,3,0.753,rock
+8,Little Wing,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,47,0.134,0.473,0.534,0.00326,6,0.0521,-7.055,1,0.0498,143.014,4,0.392,rock
+9,If 6 Was 9,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,40,0.0183,0.416,0.666,0.265,8,0.809,-9.026,1,0.204,110.822,3,0.518,rock
+10,Foxey Lady,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,49,0.0613,0.494,0.838,0.26,4,0.405,-6.028,1,0.0387,98.019,4,0.558,rock
+11,Bold as Love,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,41,0.00947,0.366,0.702,0.000196,1,0.0887,-6.942,1,0.0633,143.826,4,0.596,rock
+12,Castles Made of Sand,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,43,0.427,0.46,0.712,0.0164,7,0.518,-8.254,1,0.259,95.023,4,0.473,rock
+13,Red House,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,45,0.637,0.501,0.454,0.0132,5,0.147,-8.54,0,0.0282,97.189,3,0.557,rock
+14,Voodoo Child (Slight Return),Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,52,0.502,0.356,0.905,0.0137,8,0.0561,-6.652,1,0.309,87.57,4,0.438,rock
+15,Freedom,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,44,0.0208,0.518,0.9,0.00454,5,0.136,-5.249,0,0.0481,112.217,4,0.707,rock
+16,Night Bird Flying,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,36,0.125,0.352,0.887,0.506,8,0.665,-4.507,1,0.0338,106.359,4,0.77,rock
+17,Angel,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,46,0.186,0.39,0.691,0.0161,8,0.173,-9.278,1,0.0619,133.958,4,0.348,rock
+18,Dolly Dagger,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,40,0.0924,0.501,0.886,1.07e-05,5,0.599,-5.85,0,0.0885,121.053,4,0.797,rock
+19,Star Spangled Banner - Live at Woodstock,Jimi Hendrix,Experience Hendrix: The Best Of Jimi Hendrix,False,44,0.608,0.209,0.898,0.868,8,0.428,-9.236,1,0.177,109.906,4,0.358,rock
+20,Hells Bells,AC/DC,Back In Black,False,71,0.00532,0.389,0.873,0.0055,4,0.273,-4.768,0,0.0475,106.767,4,0.303,rock
+21,Shoot to Thrill,AC/DC,Back In Black,False,70,0.000239,0.457,0.904,0.0879,2,0.396,-5.303,1,0.0747,141.038,4,0.48,rock
+22,What Do You Do for Money Honey,AC/DC,Back In Black,False,55,0.00533,0.532,0.858,2.13e-06,9,0.751,-5.023,1,0.0599,125.698,4,0.495,rock
+23,Givin the Dog a Bone,AC/DC,Back In Black,False,54,0.0704,0.525,0.975,2.22e-05,2,0.231,-4.372,1,0.0572,132.686,4,0.736,rock
+24,Let Me Put My Love Into You,AC/DC,Back In Black,False,54,0.115,0.4,0.902,0.000116,9,0.139,-4.385,1,0.0523,105.659,4,0.632,rock
+25,Back In Black,AC/DC,Back In Black,False,84,0.011,0.31,0.7,0.00965,9,0.0828,-5.678,1,0.047,188.386,4,0.763,rock
+26,You Shook Me All Night Long,AC/DC,Back In Black,False,78,0.00287,0.532,0.767,0.000513,7,0.39,-5.509,1,0.0574,127.361,4,0.755,rock
+27,Have a Drink on Me,AC/DC,Back In Black,False,56,0.00167,0.421,0.889,0.00838,2,0.654,-5.166,1,0.0545,122.424,4,0.424,rock
+28,Shake a Leg,AC/DC,Back In Black,False,53,0.0234,0.417,0.942,0.00857,4,0.317,-4.225,1,0.0852,152.346,4,0.618,rock
+29,Rock and Roll Ain't Noise Pollution,AC/DC,Back In Black,False,63,0.041,0.576,0.659,0.0,9,0.0587,-5.617,1,0.0383,94.853,4,0.717,rock
+30,Highway to Hell,AC/DC,Highway to Hell,False,84,0.0591,0.573,0.913,0.00173,6,0.156,-4.793,0,0.132,115.715,4,0.422,rock
+31,Girls Got Rhythm,AC/DC,Highway to Hell,False,62,0.0514,0.511,0.978,0.000999,4,0.358,-4.27,0,0.154,137.792,4,0.544,rock
+32,Walk All over You,AC/DC,Highway to Hell,False,54,0.00795,0.233,0.869,0.0216,9,0.251,-4.652,1,0.0646,162.021,4,0.4,rock
+33,Touch Too Much,AC/DC,Highway to Hell,False,63,0.0373,0.525,0.907,3.6e-05,7,0.309,-4.301,1,0.0963,123.102,4,0.607,rock
+34,Beating Around the Bush,AC/DC,Highway to Hell,False,51,0.00103,0.476,0.891,0.103,1,0.17,-5.733,0,0.102,115.755,4,0.463,rock
+35,Shot Down in Flames,AC/DC,Highway to Hell,False,55,0.00165,0.531,0.863,0.132,7,0.884,-4.534,1,0.0809,130.762,4,0.652,rock
+36,Get It Hot,AC/DC,Highway to Hell,False,49,0.000514,0.648,0.832,0.564,3,0.0951,-4.635,1,0.0329,129.854,4,0.834,rock
+37,If You Want Blood (You've Got It),AC/DC,Highway to Hell,False,56,0.0299,0.487,0.931,0.15,2,0.43,-4.001,1,0.117,141.242,4,0.54,rock
+38,Love Hungry Man,AC/DC,Highway to Hell,False,48,0.0019,0.51,0.838,0.0684,1,0.24,-5.026,1,0.0519,120.184,4,0.55,rock
+39,Night Prowler,AC/DC,Highway to Hell,False,50,0.0237,0.25,0.73,0.0134,6,0.181,-5.002,1,0.0624,197.194,3,0.483,rock
+40,Sure Shot - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,44,0.299,0.702,0.793,0.0,1,0.121,-6.72,1,0.23,98.026,4,0.535,alternative
+41,Tough Guy - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,35,0.00891,0.444,0.963,0.965,10,0.109,-6.616,0,0.105,95.659,4,0.378,alternative
+42,B-Boys Makin' With The Freak Freak - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,44,0.0284,0.685,0.87,0.103,6,0.481,-7.234,1,0.271,90.086,4,0.553,alternative
+43,Bobo On The Corner - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),False,34,0.00424,0.533,0.786,0.788,11,0.109,-8.374,0,0.0367,110.227,4,0.302,alternative
+44,Root Down - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,39,0.335,0.838,0.898,0.000424,0,0.335,-7.411,1,0.0956,100.102,4,0.915,alternative
+45,Sabotage - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,45,0.00497,0.32,0.943,0.192,6,0.0984,-5.789,0,0.126,166.524,4,0.49,alternative
+46,Get It Together - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,42,0.269,0.854,0.667,0.0,11,0.11,-6.513,1,0.328,100.979,4,0.666,alternative
+47,Sabrosa - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),False,36,0.0316,0.725,0.725,0.645,2,0.108,-12.298,0,0.0601,157.928,4,0.879,alternative
+48,The Update - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,33,0.391,0.726,0.933,0.0374,7,0.399,-5.967,1,0.131,157.383,4,0.874,alternative
+49,Futterman's Rule - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,33,0.00725,0.53,0.91,0.773,10,0.186,-7.298,0,0.0451,166.239,4,0.862,alternative
+50,Alright Hear This - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,33,0.0545,0.777,0.921,0.000251,10,0.378,-6.989,0,0.278,101.541,4,0.689,alternative
+51,Eugene's Lament - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),False,32,0.0103,0.577,0.349,0.406,4,0.484,-13.773,1,0.0315,142.614,4,0.544,alternative
+52,Flute Loop - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,44,0.0149,0.8,0.788,0.000448,7,0.379,-8.798,1,0.231,104.466,4,0.236,alternative
+53,Do It - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,34,0.0747,0.763,0.919,3.17e-06,1,0.507,-6.273,1,0.212,87.097,4,0.583,alternative
+54,Ricky's Theme - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),False,32,0.0869,0.566,0.525,0.893,9,0.0843,-13.682,1,0.0277,93.841,4,0.357,alternative
+55,Heart Attack Man - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,31,0.0208,0.343,0.942,0.0038,9,0.791,-7.818,1,0.473,93.552,4,0.137,alternative
+56,The Scoop - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,31,0.0381,0.736,0.893,0.0017,11,0.377,-6.094,0,0.154,90.031,4,0.603,alternative
+57,Shambala - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),False,34,0.326,0.573,0.672,0.945,0,0.156,-14.889,1,0.066,116.838,4,0.463,alternative
+58,Bodhisattva Vow - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,31,0.0185,0.704,0.903,0.00178,2,0.0944,-8.762,0,0.0836,99.028,4,0.4,alternative
+59,Transitions - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),False,30,0.0574,0.457,0.337,0.781,7,0.112,-12.304,0,0.0346,178.315,4,0.13,alternative
+60,Root Down - Free Zone Mix/Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,45,0.252,0.819,0.777,0.0409,0,0.112,-6.335,1,0.0876,99.986,4,0.694,alternative
+61,Resolution Time - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),False,28,0.00302,0.489,0.964,0.223,2,0.265,-6.078,1,0.258,185.021,4,0.299,alternative
+62,Get It Together - Buck-Wild Remix/Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,29,0.0226,0.762,0.797,0.00591,1,0.066,-7.216,1,0.222,99.684,4,0.616,alternative
+63,Dope Little Song - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,28,0.0998,0.845,0.874,8.95e-05,1,0.755,-7.864,1,0.146,101.957,4,0.689,alternative
+64,Sure Shot - European B-Boy Mix/Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,41,0.0553,0.773,0.439,0.825,10,0.762,-6.689,1,0.0513,97.684,4,0.487,alternative
+65,Heart Attack Man - Unplugged,Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,26,0.749,0.638,0.209,0.0,2,0.253,-18.583,1,0.823,86.744,3,0.154,alternative
+66,The Vibes - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),False,26,0.0484,0.397,0.837,0.000112,9,0.0991,-7.83,1,0.45,189.291,4,0.669,alternative
+67,Atwater Basketball Association File No. 172-C,Beastie Boys,Ill Communication (Deluxe Version/Remastered),False,24,0.215,0.514,0.326,3.17e-05,10,0.375,-17.314,0,0.134,70.664,4,0.162,alternative
+68,"Heart Attack Man - Live At Annexet, Stockholm, Sweden, 1995/Remastered 2009",Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,25,0.00143,0.348,0.984,0.918,9,0.939,-5.986,0,0.389,101.999,4,0.0891,alternative
+69,"The Maestro - Live At Civic Hall, Wolverhampton, England, 1995/Remastered 2009",Beastie Boys,Ill Communication (Deluxe Version/Remastered),True,25,0.016,0.479,0.918,1.17e-06,10,0.688,-4.283,0,0.328,101.147,4,0.406,alternative
+70,Mullet Head - Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),False,27,0.0222,0.447,0.931,0.898,4,0.357,-6.1,0,0.0835,116.176,4,0.459,alternative
+71,Sure Shot - European B-Boy Mix/Instrumental/Remastered 2009,Beastie Boys,Ill Communication (Deluxe Version/Remastered),False,26,0.0747,0.858,0.618,0.737,10,0.811,-6.355,0,0.324,97.73,4,0.527,alternative
+72,Keep Your Eyes Peeled,Queens of the Stone Age,...Like Clockwork,False,51,0.105,0.496,0.729,0.457,7,0.114,-8.027,1,0.0445,105.401,3,0.281,rock
+73,I Sat By The Ocean,Queens of the Stone Age,...Like Clockwork,False,66,0.00136,0.516,0.781,0.000735,8,0.11,-4.004,0,0.0364,116.793,4,0.897,rock
+74,The Vampyre of Time And Memory,Queens of the Stone Age,...Like Clockwork,False,55,0.088,0.551,0.385,0.00221,9,0.133,-8.958,0,0.0274,142.047,4,0.375,rock
+75,If I Had A Tail,Queens of the Stone Age,...Like Clockwork,False,59,0.636,0.602,0.85,3.26e-05,11,0.663,-6.602,1,0.1,112.077,4,0.339,rock
+76,My God Is The Sun,Queens of the Stone Age,...Like Clockwork,False,56,0.000531,0.187,0.855,0.0204,11,0.361,-4.316,0,0.0624,160.9,3,0.257,rock
+77,Kalopsia,Queens of the Stone Age,...Like Clockwork,False,50,0.13,0.375,0.517,0.104,2,0.122,-7.725,1,0.0408,143.743,3,0.201,rock
+78,Fairweather Friends,Queens of the Stone Age,...Like Clockwork,False,49,0.0115,0.189,0.8,0.000108,11,0.852,-3.818,0,0.0931,187.788,4,0.322,rock
+79,Smooth Sailing,Queens of the Stone Age,...Like Clockwork,False,57,0.0546,0.587,0.874,0.000452,2,0.0511,-3.597,1,0.0544,95.017,4,0.469,rock
+80,I Appear Missing,Queens of the Stone Age,...Like Clockwork,False,55,0.0522,0.164,0.792,0.00155,1,0.0435,-4.281,0,0.0459,172.737,3,0.314,rock
+81,...Like Clockwork,Queens of the Stone Age,...Like Clockwork,False,50,0.737,0.479,0.341,4.56e-05,0,0.0958,-8.315,0,0.0266,56.971,4,0.167,rock
+82,Feet Don't Fail Me,Queens of the Stone Age,Villains,False,62,0.0188,0.514,0.806,0.00227,2,0.0976,-6.947,1,0.0582,109.331,4,0.288,rock
+83,The Way You Used to Do,Queens of the Stone Age,Villains,False,67,0.0102,0.474,0.843,0.104,0,0.362,-5.909,1,0.272,97.691,4,0.433,rock
+84,Domesticated Animals,Queens of the Stone Age,Villains,False,55,0.0209,0.776,0.408,0.0248,4,0.17,-5.712,1,0.0436,116.98,4,0.778,rock
+85,Fortress,Queens of the Stone Age,Villains,False,55,0.0151,0.477,0.737,0.00145,11,0.0893,-5.98,0,0.0346,121.833,4,0.325,rock
+86,Head Like a Haunted House,Queens of the Stone Age,Villains,True,54,0.00159,0.292,0.986,0.000419,7,0.0892,-3.045,1,0.181,197.923,4,0.337,rock
+87,Un-Reborn Again,Queens of the Stone Age,Villains,False,53,0.0169,0.42,0.752,0.0214,7,0.117,-5.002,0,0.0386,111.105,4,0.461,rock
+88,Hideaway,Queens of the Stone Age,Villains,False,49,0.0284,0.536,0.696,0.559,7,0.0993,-7.548,0,0.0409,117.987,4,0.62,rock
+89,The Evil Has Landed,Queens of the Stone Age,Villains,False,58,0.00057,0.264,0.882,0.111,7,0.283,-4.362,1,0.0795,85.508,4,0.766,rock
+90,Villains of Circumstance,Queens of the Stone Age,Villains,False,52,0.0135,0.162,0.517,0.246,11,0.116,-8.214,0,0.0631,173.743,3,0.109,rock
+91,Excursions,A Tribe Called Quest,The Low End Theory,False,57,0.386,0.885,0.608,0.0118,11,0.319,-10.809,1,0.169,95.748,4,0.707,alternative
+92,Buggin' Out,A Tribe Called Quest,The Low End Theory,False,59,0.114,0.887,0.419,0.268,10,0.129,-10.961,0,0.353,96.149,4,0.576,alternative
+93,Rap Promoter,A Tribe Called Quest,The Low End Theory,False,48,0.00846,0.867,0.459,0.0212,4,0.0695,-13.526,0,0.254,97.464,4,0.554,alternative
+94,Butter,A Tribe Called Quest,The Low End Theory,False,52,0.0316,0.727,0.38,0.0,7,0.342,-14.809,1,0.335,92.05,4,0.455,alternative
+95,Verses from the Abstract,A Tribe Called Quest,The Low End Theory,False,49,0.0913,0.868,0.424,0.000152,7,0.161,-14.047,1,0.329,87.614,4,0.755,alternative
+96,Show Business,A Tribe Called Quest,The Low End Theory,False,47,0.255,0.886,0.591,0.0,10,0.213,-12.323,0,0.254,101.623,4,0.828,alternative
+97,Vibes and Stuff,A Tribe Called Quest,The Low End Theory,False,50,0.708,0.819,0.261,0.0216,2,0.108,-14.406,0,0.181,92.348,4,0.487,alternative
+98,Infamous Date Rape,A Tribe Called Quest,The Low End Theory,False,45,0.245,0.759,0.344,0.0104,2,0.125,-13.638,1,0.443,188.251,4,0.5,alternative
+99,Check the Rhime,A Tribe Called Quest,The Low End Theory,False,59,0.0502,0.881,0.361,0.00458,11,0.246,-14.728,0,0.237,96.43,4,0.799,alternative
+100,Everything Is Fair,A Tribe Called Quest,The Low End Theory,False,45,0.0936,0.78,0.654,0.0243,6,0.402,-14.414,1,0.0917,97.642,4,0.885,alternative
+101,Jazz (We've Got),A Tribe Called Quest,The Low End Theory,False,58,0.719,0.822,0.479,4.42e-05,11,0.124,-15.962,1,0.271,92.461,4,0.72,alternative
+102,Skypager,A Tribe Called Quest,The Low End Theory,False,44,0.249,0.86,0.43,0.0132,10,0.138,-13.531,0,0.252,97.136,4,0.845,alternative
+103,What?,A Tribe Called Quest,The Low End Theory,False,46,0.079,0.954,0.356,1.37e-05,11,0.092,-17.975,0,0.236,110.053,4,0.335,alternative
+104,Scenario - LP Mix,A Tribe Called Quest,The Low End Theory,False,62,0.112,0.795,0.6,0.000171,2,0.111,-14.004,1,0.341,101.78,4,0.633,alternative
+105,Bring Da Ruckus,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,63,0.234,0.794,0.627,0.0,11,0.35,-9.431,1,0.36,87.554,4,0.518,hardcore
+106,Shame On a Nigga,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,64,0.0846,0.889,0.466,7.44e-06,1,0.384,-10.74,1,0.36,100.17,4,0.403,hardcore
+107,Clan In Da Front,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,54,0.22,0.707,0.617,0.00018,6,0.13,-12.519,1,0.303,96.051,4,0.594,hardcore
+108,Wu-Tang: 7th Chamber,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,52,0.428,0.857,0.488,2.82e-06,6,0.284,-11.457,1,0.407,92.102,4,0.621,hardcore
+109,Can It Be All So Simple / Intermission,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,51,0.819,0.677,0.252,1.77e-06,7,0.234,-17.794,1,0.555,91.484,4,0.441,hardcore
+110,Da Mystery of Chessboxin',Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,61,0.334,0.925,0.388,0.0,2,0.332,-10.508,1,0.419,105.056,4,0.359,hardcore
+111,Wu-Tang Clan Aint Nuthing ta F' Wit,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,68,0.197,0.826,0.566,0.0,10,0.356,-10.747,0,0.31,99.13,4,0.653,hardcore
+112,C.R.E.A.M.,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,74,0.57,0.479,0.549,0.0239,11,0.127,-10.551,0,0.373,180.985,4,0.576,hardcore
+113,Method Man,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,60,0.0286,0.903,0.519,0.000907,7,0.328,-10.109,1,0.307,101.561,4,0.596,hardcore
+114,Protect Ya Neck,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,68,0.032,0.817,0.552,7.17e-06,8,0.826,-10.8,0,0.386,102.011,4,0.808,hardcore
+115,Tearz,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,58,0.189,0.914,0.394,0.000168,8,0.0982,-10.239,0,0.365,91.504,4,0.427,hardcore
+116,Wu-Tang: 7th Chamber - Part II - Conclusion,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,50,0.47,0.875,0.46,3.08e-06,11,0.507,-8.984,1,0.454,92.054,4,0.516,hardcore
+117,Protect Ya Neck - Shao Lin Version,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],True,47,0.0174,0.81,0.575,2.56e-06,8,0.747,-10.524,0,0.337,102.021,4,0.77,hardcore
+118,Method Man - Home Grown Version,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],False,46,0.138,0.9,0.592,8.38e-05,6,0.335,-8.082,1,0.332,101.034,4,0.736,hardcore
+119,C.R.E.A.M. (Cash Rules Everything Around Me) - A Cappella,Wu-Tang Clan,Enter The Wu-Tang (36 Chambers) [Expanded Edition],False,42,0.706,0.675,0.659,0.0,9,0.113,-8.787,0,0.95,79.457,1,0.172,hardcore
+120,Fear Not Of Man,Mos Def,Black On Both Sides,True,43,0.0547,0.775,0.825,0.0,1,0.169,-7.162,1,0.207,98.036,4,0.917,alternative
+121,Hip Hop,Mos Def,Black On Both Sides,True,53,0.024,0.592,0.861,0.0,1,0.492,-5.177,1,0.249,90.238,4,0.794,alternative
+122,Love,Mos Def,Black On Both Sides,True,43,0.0454,0.695,0.643,0.0,1,0.525,-7.968,1,0.377,94.895,4,0.371,alternative
+123,Ms. Fat Booty,Mos Def,Black On Both Sides,True,70,0.148,0.782,0.589,0.0,1,0.164,-4.827,1,0.189,90.438,4,0.869,alternative
+124,Speed Law,Mos Def,Black On Both Sides,True,48,0.0568,0.795,0.667,0.0,11,0.407,-7.636,0,0.374,98.024,4,0.694,alternative
+125,Do It Now,Mos Def,Black On Both Sides,True,47,0.0086,0.699,0.748,2.37e-06,11,0.0686,-5.947,0,0.333,93.878,4,0.863,alternative
+126,Got,Mos Def,Black On Both Sides,True,42,0.0298,0.743,0.701,0.0,0,0.597,-8.09,1,0.349,92.711,4,0.568,alternative
+127,UMI Says,Mos Def,Black On Both Sides,True,55,0.305,0.72,0.67,0.0,2,0.0928,-10.224,1,0.132,121.342,4,0.566,alternative
+128,New World Water,Mos Def,Black On Both Sides,True,41,0.00646,0.794,0.806,0.0,11,0.166,-7.94,0,0.301,100.145,4,0.668,alternative
+129,Rock N Roll,Mos Def,Black On Both Sides,True,39,0.0895,0.731,0.846,0.0,11,0.577,-5.891,1,0.258,96.943,4,0.659,alternative
+130,Know That,Mos Def,Black On Both Sides,True,41,0.0529,0.721,0.837,0.0,1,0.423,-6.546,1,0.226,91.077,4,0.642,alternative
+131,Climb,Mos Def,Black On Both Sides,True,38,0.372,0.391,0.566,0.000506,8,0.122,-10.106,0,0.182,86.91,4,0.582,alternative
+132,Brooklyn,Mos Def,Black On Both Sides,True,44,0.0386,0.496,0.888,0.0,1,0.273,-6.171,1,0.325,94.663,4,0.673,alternative
+133,Habitat,Mos Def,Black On Both Sides,True,39,0.0264,0.797,0.716,1.53e-05,8,0.0882,-7.548,0,0.156,96.252,4,0.923,alternative
+134,Mr. Nigga,Mos Def,Black On Both Sides,True,43,0.182,0.58,0.82,0.0,9,0.258,-5.874,0,0.361,113.021,4,0.757,alternative
+135,Mathematics,Mos Def,Black On Both Sides,True,61,0.0285,0.753,0.749,0.0,1,0.0845,-6.132,0,0.316,93.79,4,0.832,alternative
+136,May-December,Mos Def,Black On Both Sides,True,42,0.0164,0.825,0.679,0.838,11,0.0468,-7.408,0,0.05,91.674,4,0.613,alternative
+137,You May Die (Intro),OutKast,ATLiens,False,41,0.873,0.455,0.259,0.00247,6,0.124,-17.893,0,0.0294,96.644,5,0.4,pop
+138,Two Dope Boyz (In a Cadillac),OutKast,ATLiens,True,51,0.0127,0.809,0.718,0.0,7,0.062,-4.398,1,0.287,93.031,4,0.495,pop
+139,ATLiens,OutKast,ATLiens,True,68,0.0294,0.918,0.734,7.9e-06,11,0.191,-2.832,0,0.269,97.044,4,0.608,pop
+140,Wheelz of Steel,OutKast,ATLiens,True,52,0.0531,0.886,0.641,0.000542,11,0.113,-7.263,0,0.263,111.649,4,0.489,pop
+141,Jazzy Belle,OutKast,ATLiens,True,52,0.0178,0.878,0.651,0.0,11,0.0408,-8.074,0,0.252,92.028,4,0.102,pop
+142,Elevators (Me & You),OutKast,ATLiens,True,63,0.0234,0.774,0.586,0.000726,10,0.0562,-10.434,0,0.301,85.075,4,0.642,pop
+143,Ova Da Wudz,OutKast,ATLiens,True,45,0.0682,0.789,0.715,0.0,4,0.231,-9.78,0,0.295,92.927,4,0.47,pop
+144,Babylon,OutKast,ATLiens,True,47,0.0943,0.77,0.444,0.0,10,0.0861,-12.226,0,0.441,83.375,4,0.418,pop
+145,Wailin',OutKast,ATLiens,True,43,0.175,0.899,0.393,0.000823,1,0.191,-10.886,1,0.306,95.383,4,0.547,pop
+146,Mainstream,OutKast,ATLiens,True,45,0.0434,0.86,0.54,7.64e-06,7,0.415,-8.371,1,0.312,92.619,3,0.249,pop
+147,Decatur Psalm,OutKast,ATLiens,True,41,0.316,0.742,0.627,0.0,4,0.168,-8.921,0,0.326,81.04,4,0.586,pop
+148,Millennium,OutKast,ATLiens,True,45,0.302,0.878,0.607,4.12e-05,11,0.137,-5.097,0,0.327,92.338,4,0.718,pop
+149,E.T. (Extraterrestrial),OutKast,ATLiens,True,41,0.0245,0.611,0.49,0.0,5,0.114,-10.505,1,0.0832,94.879,4,0.0371,pop
+150,13th Floor / Growing Old,OutKast,ATLiens,True,42,0.518,0.769,0.529,1.06e-05,9,0.139,-9.221,1,0.3,85.889,4,0.568,pop
+151,Elevators - ONP 86 Mix,OutKast,ATLiens,True,40,0.189,0.658,0.577,6.34e-06,0,0.103,-10.798,1,0.382,84.341,4,0.497,pop
+152,Culture (feat. DJ Khaled),Migos,Culture,True,55,0.0379,0.825,0.7,0.0,11,0.139,-5.098,0,0.243,132.996,4,0.317,pop
+153,T-Shirt,Migos,Culture,True,75,0.242,0.865,0.687,0.0,10,0.158,-3.744,0,0.217,139.023,4,0.486,pop
+154,Call Casting,Migos,Culture,True,59,0.0962,0.852,0.727,0.0,1,0.154,-4.851,1,0.267,130.014,4,0.496,pop
+155,Bad and Boujee (feat. Lil Uzi Vert),Migos,Culture,True,79,0.061,0.927,0.665,0.0,11,0.123,-5.313,1,0.244,127.076,4,0.175,pop
+156,Get Right Witcha,Migos,Culture,True,70,0.0646,0.95,0.743,1.19e-05,10,0.103,-5.861,0,0.238,136.98,4,0.62,pop
+157,Slippery (feat. Gucci Mane),Migos,Culture,True,78,0.307,0.92,0.674,0.0,1,0.104,-5.662,0,0.264,141.967,4,0.741,pop
+158,Big On Big,Migos,Culture,True,56,0.145,0.723,0.768,0.0,0,0.172,-5.469,0,0.0587,142.022,4,0.526,pop
+159,What The Price,Migos,Culture,True,59,0.293,0.786,0.625,0.0,6,0.15,-4.194,1,0.0542,123.983,4,0.216,pop
+160,Brown Paper Bag,Migos,Culture,True,59,0.0477,0.907,0.489,0.0,8,0.115,-5.79,1,0.158,136.982,4,0.253,pop
+161,Deadz (feat. 2 Chainz),Migos,Culture,True,65,0.162,0.862,0.785,0.0,8,0.128,-3.571,1,0.232,123.012,4,0.372,pop
+162,All Ass,Migos,Culture,True,58,0.00625,0.836,0.758,0.0,8,0.207,-5.217,1,0.191,140.021,4,0.551,pop
+163,Kelly Price (feat. Travis Scott),Migos,Culture,True,68,0.53,0.745,0.685,0.0,4,0.176,-5.7,0,0.0313,121.977,4,0.437,pop
+164,Out Yo Way,Migos,Culture,True,55,0.202,0.562,0.758,0.0,1,0.352,-4.592,1,0.188,133.951,4,0.573,pop
+165,Gangsta,ScHoolboy Q,Oxymoron (Deluxe),True,57,0.113,0.644,0.935,0.0,7,0.422,-3.888,1,0.345,128.958,4,0.603,pop
+166,Los Awesome,ScHoolboy Q,Oxymoron (Deluxe),True,50,0.159,0.613,0.826,0.0,1,0.0724,-4.644,1,0.276,81.971,4,0.855,pop
+167,Collard Greens,ScHoolboy Q,Oxymoron (Deluxe),True,74,0.025,0.825,0.575,9.94e-06,11,0.205,-4.87,1,0.0633,153.954,4,0.65,pop
+168,What They Want,ScHoolboy Q,Oxymoron (Deluxe),True,58,0.519,0.82,0.743,0.0,8,0.116,-6.776,1,0.313,114.994,4,0.812,pop
+169,Hoover Street,ScHoolboy Q,Oxymoron (Deluxe),True,49,0.0388,0.614,0.783,0.0,1,0.214,-6.573,1,0.321,79.045,4,0.335,pop
+170,Studio,ScHoolboy Q,Oxymoron (Deluxe),True,70,0.0507,0.709,0.589,0.0,8,0.0585,-7.776,0,0.0433,133.922,3,0.58,pop
+171,Prescription/Oxymoron,ScHoolboy Q,Oxymoron (Deluxe),True,50,0.0495,0.531,0.91,0.00872,11,0.105,-5.397,0,0.435,119.997,4,0.376,pop
+172,The Purge,ScHoolboy Q,Oxymoron (Deluxe),True,53,0.035,0.622,0.641,0.0,10,0.259,-6.76,0,0.464,168.326,4,0.387,pop
+173,Blind Threats,ScHoolboy Q,Oxymoron (Deluxe),True,49,0.306,0.694,0.857,0.0,8,0.175,-8.251,0,0.304,94.026,4,0.457,pop
+174,Hell Of A Night,ScHoolboy Q,Oxymoron (Deluxe),True,65,0.377,0.652,0.836,0.0,2,0.138,-7.179,0,0.153,123.946,4,0.162,pop
+175,Break The Bank,ScHoolboy Q,Oxymoron (Deluxe),True,61,0.134,0.575,0.81,5.45e-06,5,0.372,-5.824,0,0.0739,80.34,4,0.409,pop
+176,Man Of The Year,ScHoolboy Q,Oxymoron (Deluxe),True,73,0.00536,0.749,0.865,0.0,3,0.198,-5.228,1,0.0413,111.914,4,0.371,pop
+177,His & Her Fiend,ScHoolboy Q,Oxymoron (Deluxe),True,47,0.0232,0.5,0.55,0.0266,1,0.143,-9.944,1,0.101,125.67,4,0.163,pop
+178,Grooveline Pt. 2,ScHoolboy Q,Oxymoron (Deluxe),True,48,0.0766,0.75,0.558,2.13e-05,6,0.371,-8.628,0,0.203,140.146,4,0.411,pop
+179,Fuck LA,ScHoolboy Q,Oxymoron (Deluxe),True,51,0.0618,0.951,0.597,0.0,9,0.102,-6.836,1,0.125,135.003,4,0.462,pop
+180,imagine,Ariana Grande,"thank u, next",True,87,0.378,0.729,0.475,0.0,8,0.12,-4.985,1,0.0364,62.52,3,0.371,pop
+181,needy,Ariana Grande,"thank u, next",True,88,0.78,0.647,0.309,7.41e-06,7,0.202,-7.948,0,0.0366,87.045,4,0.195,pop
+182,NASA,Ariana Grande,"thank u, next",False,88,0.451,0.747,0.458,0.0,6,0.252,-6.891,1,0.303,75.029,4,0.47,pop
+183,bloodline,Ariana Grande,"thank u, next",True,88,0.0815,0.758,0.665,0.000157,2,0.216,-5.188,0,0.0774,151.976,4,0.643,pop
+184,fake smile,Ariana Grande,"thank u, next",True,86,0.329,0.45,0.619,0.0,9,0.319,-7.412,1,0.372,83.3,4,0.427,pop
+185,bad idea,Ariana Grande,"thank u, next",False,87,0.0268,0.847,0.579,0.0545,1,0.102,-5.314,1,0.0719,137.998,4,0.569,pop
+186,make up,Ariana Grande,"thank u, next",True,83,0.0844,0.671,0.714,1.48e-06,7,0.0568,-5.373,1,0.21,105.137,3,0.477,pop
+187,ghostin,Ariana Grande,"thank u, next",False,85,0.418,0.287,0.364,1.8e-05,9,0.185,-8.295,1,0.0306,103.777,4,0.11,pop
+188,in my head,Ariana Grande,"thank u, next",True,84,0.173,0.662,0.6,0.000137,0,0.109,-6.402,1,0.0703,134.979,4,0.331,pop
+189,7 rings,Ariana Grande,"thank u, next",True,94,0.592,0.778,0.317,0.0,1,0.0881,-10.732,0,0.334,140.048,4,0.327,pop
+190,"thank u, next",Ariana Grande,"thank u, next",True,94,0.229,0.717,0.653,0.0,1,0.101,-5.634,1,0.0658,106.966,4,0.412,pop
+191,"break up with your girlfriend, i'm bored",Ariana Grande,"thank u, next",True,98,0.0421,0.726,0.554,0.0,5,0.106,-5.29,0,0.0917,169.999,4,0.335,pop
+192,Moonlight,Ariana Grande,Dangerous Woman,False,72,0.417,0.626,0.412,3.55e-06,9,0.048,-7.339,1,0.0292,102.169,3,0.209,pop
+193,Dangerous Woman,Ariana Grande,Dangerous Woman,False,81,0.0529,0.662,0.602,0.0,4,0.356,-5.369,0,0.0401,133.969,3,0.29,pop
+194,Be Alright,Ariana Grande,Dangerous Woman,False,74,0.169,0.813,0.456,2.85e-06,1,0.105,-7.667,0,0.0685,108.801,4,0.587,pop
+195,Into You,Ariana Grande,Dangerous Woman,False,83,0.0162,0.623,0.734,1.9e-06,9,0.145,-5.95,1,0.107,107.853,4,0.372,pop
+196,Side To Side,Ariana Grande,Dangerous Woman,True,83,0.0513,0.65,0.736,0.0,6,0.235,-5.84,0,0.229,159.174,4,0.612,pop
+197,Let Me Love You,Ariana Grande,Dangerous Woman,False,74,0.0295,0.528,0.435,0.0,2,0.243,-8.363,1,0.129,102.704,3,0.0781,pop
+198,Greedy,Ariana Grande,Dangerous Woman,False,71,0.0323,0.62,0.705,0.0,1,0.092,-5.335,1,0.0989,109.974,4,0.844,pop
+199,Leave Me Lonely,Ariana Grande,Dangerous Woman,False,67,0.596,0.445,0.449,2.34e-05,8,0.339,-7.472,0,0.0315,90.927,3,0.374,pop
+200,Everyday,Ariana Grande,Dangerous Woman,True,75,0.0152,0.637,0.733,0.0,7,0.162,-4.387,0,0.0553,131.005,4,0.432,pop
+201,Sometimes,Ariana Grande,Dangerous Woman,False,66,0.0901,0.394,0.666,0.0,4,0.344,-5.383,1,0.25,77.827,4,0.561,pop
+202,I Don't Care,Ariana Grande,Dangerous Woman,True,62,0.729,0.59,0.403,1.38e-06,0,0.153,-8.286,1,0.0431,111.948,4,0.287,pop
+203,Bad Decisions,Ariana Grande,Dangerous Woman,True,67,0.0146,0.698,0.646,0.0,4,0.269,-5.368,0,0.0415,131.945,4,0.787,pop
+204,Touch It,Ariana Grande,Dangerous Woman,False,69,0.0305,0.536,0.694,0.0,7,0.183,-4.369,0,0.0331,100.899,4,0.293,pop
+205,Knew Better / Forever Boy,Ariana Grande,Dangerous Woman,False,65,0.235,0.484,0.38,3.8e-06,6,0.0998,-6.706,1,0.071,106.652,4,0.372,pop
+206,Thinking Bout You,Ariana Grande,Dangerous Woman,True,69,0.0149,0.507,0.697,0.000887,11,0.122,-6.021,1,0.0616,102.983,4,0.401,pop
+207,American Teen,Khalid,American Teen,False,77,0.0683,0.658,0.623,0.0,0,0.321,-6.934,1,0.0398,100.436,4,0.207,pop
+208,Young Dumb & Broke,Khalid,American Teen,False,86,0.199,0.798,0.539,1.66e-05,1,0.165,-6.351,1,0.0421,136.949,4,0.394,pop
+209,Location,Khalid,American Teen,False,85,0.33,0.736,0.449,0.000162,1,0.0898,-11.462,0,0.425,80.126,4,0.326,pop
+210,Another Sad Love Song,Khalid,American Teen,False,77,0.412,0.834,0.472,6.76e-05,5,0.0836,-7.777,0,0.0873,107.014,4,0.517,pop
+211,Saved,Khalid,American Teen,False,80,0.189,0.739,0.448,0.0,10,0.118,-10.28,0,0.138,81.044,4,0.553,pop
+212,Coaster,Khalid,American Teen,False,79,0.935,0.441,0.219,0.0,8,0.115,-14.586,1,0.0419,94.021,4,0.244,pop
+213,8TEEN,Khalid,American Teen,False,80,0.225,0.83,0.585,0.00209,1,0.0576,-5.802,1,0.0366,105.03,4,0.642,pop
+214,Let's Go,Khalid,American Teen,True,70,0.572,0.78,0.371,0.0,9,0.247,-6.705,1,0.0559,108.003,4,0.43,pop
+215,Hopeless,Khalid,American Teen,False,70,0.643,0.785,0.702,0.0,7,0.175,-4.517,1,0.0464,116.021,4,0.569,pop
+216,Cold Blooded,Khalid,American Teen,False,69,0.777,0.71,0.405,0.000163,9,0.111,-10.864,0,0.0519,103.04,4,0.402,pop
+217,Winter,Khalid,American Teen,False,70,0.101,0.678,0.575,9.38e-06,1,0.116,-7.086,1,0.123,100.007,4,0.367,pop
+218,Therapy,Khalid,American Teen,False,71,0.891,0.707,0.484,0.00344,9,0.256,-6.579,0,0.0481,92.988,4,0.43,pop
+219,Keep Me,Khalid,American Teen,False,69,0.368,0.778,0.574,0.0,2,0.126,-7.775,0,0.0327,112.048,4,0.663,pop
+220,Shot Down,Khalid,American Teen,False,75,0.893,0.767,0.512,0.000223,6,0.103,-6.777,1,0.0591,123.921,4,0.489,pop
+221,Angels,Khalid,American Teen,False,71,0.959,0.472,0.265,0.000499,6,0.1,-10.059,0,0.0356,111.558,4,0.204,pop
+222,He Is The Same,Jon Bellion,The Human Condition,False,56,0.231,0.503,0.555,0.000532,0,0.118,-4.886,1,0.227,90.916,4,0.467,pop
+223,80's Films,Jon Bellion,The Human Condition,False,58,0.0263,0.619,0.47,0.0,6,0.0472,-7.765,1,0.0749,89.594,4,0.667,pop
+224,All Time Low,Jon Bellion,The Human Condition,True,75,0.0508,0.584,0.569,0.0,0,0.0924,-4.259,1,0.166,89.779,4,0.501,pop
+225,New York Soul - Pt. ii,Jon Bellion,The Human Condition,True,54,0.00841,0.503,0.665,0.0,1,0.167,-4.569,0,0.275,79.088,4,0.261,pop
+226,Fashion,Jon Bellion,The Human Condition,False,54,0.331,0.557,0.371,0.0,3,0.196,-8.562,1,0.051,141.881,4,0.378,pop
+227,Maybe IDK,Jon Bellion,The Human Condition,False,61,0.0424,0.606,0.533,0.0,9,0.172,-6.426,1,0.0522,120.049,4,0.221,pop
+228,Woke The F*ck Up,Jon Bellion,The Human Condition,True,63,0.05,0.459,0.63,0.0,8,0.0695,-5.415,1,0.133,91.731,4,0.608,pop
+229,Overwhelming,Jon Bellion,The Human Condition,False,65,0.267,0.732,0.629,0.0,0,0.118,-4.64,1,0.286,91.7,4,0.683,pop
+230,Weight Of The World,Jon Bellion,The Human Condition,False,54,0.413,0.371,0.629,0.0,5,0.0769,-4.882,1,0.0677,139.388,3,0.411,pop
+231,The Good In Me,Jon Bellion,The Human Condition,False,56,0.122,0.644,0.52,0.0,7,0.203,-4.729,0,0.0468,122.041,3,0.381,pop
+232,Morning In America,Jon Bellion,The Human Condition,False,58,0.137,0.739,0.681,0.0,5,0.0807,-5.933,1,0.0817,101.976,4,0.645,pop
+233,iRobot,Jon Bellion,The Human Condition,False,58,0.205,0.339,0.56,7.86e-06,11,0.162,-4.824,1,0.0609,206.112,4,0.278,pop
+234,Guillotine,Jon Bellion,The Human Condition,False,66,0.106,0.614,0.798,5.83e-06,4,0.0966,-3.16,0,0.142,98.127,4,0.593,pop
+235,Hand Of God - Outro,Jon Bellion,The Human Condition,False,61,0.304,0.594,0.551,0.0,3,0.123,-6.57,1,0.147,77.482,4,0.371,pop
+236,Your Love Is My Drug,Kesha,Animal (Expanded Edition),False,68,0.00681,0.826,0.612,0.0,1,0.0889,-3.891,1,0.0982,120.057,4,0.756,pop
+237,TiK ToK,Kesha,Animal (Expanded Edition),False,79,0.0991,0.755,0.837,0.0,2,0.289,-2.718,0,0.142,120.028,4,0.714,pop
+238,Take It Off,Kesha,Animal (Expanded Edition),False,64,4.14e-05,0.729,0.675,0.00126,5,0.0867,-5.292,0,0.0286,125.036,4,0.74,pop
+239,Kiss N Tell,Kesha,Animal (Expanded Edition),False,52,0.00223,0.752,0.695,0.000137,4,0.28,-3.854,1,0.0956,144.021,4,0.963,pop
+240,Stephen,Kesha,Animal (Expanded Edition),False,43,0.104,0.392,0.769,0.0,2,0.269,-4.091,1,0.165,99.97,4,0.524,pop
+241,Blah Blah Blah (feat. 3OH!3),Kesha,Animal (Expanded Edition),False,61,0.0843,0.752,0.836,0.000425,10,0.424,-3.173,1,0.115,120.003,4,0.519,pop
+242,Hungover,Kesha,Animal (Expanded Edition),False,41,0.0362,0.284,0.844,0.000354,1,0.194,-4.352,0,0.25,180.008,4,0.551,pop
+243,Party At A Rich Dude's House,Kesha,Animal (Expanded Edition),False,45,8.63e-05,0.475,0.801,0.000986,8,0.225,-3.707,1,0.0431,146.951,4,0.304,pop
+244,Backstabber,Kesha,Animal (Expanded Edition),False,48,0.0666,0.6,0.939,6.18e-06,7,0.34,-1.794,1,0.19,159.941,4,0.833,pop
+245,Blind,Kesha,Animal (Expanded Edition),False,44,0.00211,0.703,0.859,0.00276,5,0.482,-2.855,0,0.0433,115.009,4,0.499,pop
+246,Dinosaur,Kesha,Animal (Expanded Edition),False,46,0.0532,0.863,0.88,0.000169,2,0.0706,-3.862,1,0.175,127.925,4,0.694,pop
+247,Dancing With Tears In My Eyes,Kesha,Animal (Expanded Edition),False,46,0.0109,0.623,0.917,4.43e-05,7,0.329,-3.242,1,0.0868,120.017,4,0.674,pop
+248,Boots & Boys,Kesha,Animal (Expanded Edition),False,41,0.0191,0.723,0.898,0.0,9,0.311,-3.572,1,0.084,126.016,4,0.695,pop
+249,Animal,Kesha,Animal (Expanded Edition),False,48,0.00573,0.508,0.869,2.93e-05,7,0.0969,-3.956,1,0.0428,138.974,4,0.0935,pop
+250,VIP,Kesha,Animal (Expanded Edition),False,36,0.00585,0.722,0.692,0.00637,7,0.159,-5.847,0,0.0282,109.982,4,0.704,pop
+251,c u next tuesday,Kesha,Animal (Expanded Edition),False,38,0.0403,0.732,0.953,0.0,11,0.094,-4.318,1,0.0553,125.952,4,0.653,pop
+252,TiK ToK - Wolfedelic Club Mix,Kesha,Animal (Expanded Edition),False,28,0.0105,0.699,0.939,5.7e-05,2,0.306,-3.382,0,0.054,119.988,4,0.839,pop
+253,TiK ToK - Fred Falke Club Remix,Kesha,Animal (Expanded Edition),False,30,0.111,0.74,0.766,0.0543,2,0.233,-6.044,0,0.0328,125.997,4,0.529,pop
+254,Baby,Justin Bieber,My World 2.0,False,74,0.0544,0.656,0.841,0.0,5,0.122,-5.183,0,0.232,65.024,4,0.522,pop
+255,Somebody To Love,Justin Bieber,My World 2.0,False,67,0.00346,0.714,0.809,0.0,5,0.227,-5.138,1,0.0267,129.966,4,0.588,pop
+256,Stuck In The Moment,Justin Bieber,My World 2.0,False,61,0.179,0.715,0.69,0.0,0,0.131,-6.279,0,0.0531,89.991,4,0.469,pop
+257,U Smile,Justin Bieber,My World 2.0,False,62,0.537,0.388,0.612,1.12e-06,8,0.115,-5.141,1,0.0478,75.618,4,0.387,pop
+258,Runaway Love,Justin Bieber,My World 2.0,False,54,0.104,0.737,0.655,0.0,10,0.184,-5.995,0,0.0311,104.014,4,0.89,pop
+259,Never Let You Go,Justin Bieber,My World 2.0,False,57,0.00212,0.662,0.8,0.0,0,0.251,-4.775,1,0.038,103.166,4,0.649,pop
+260,Overboard,Justin Bieber,My World 2.0,False,63,0.233,0.298,0.779,0.0,5,0.215,-5.134,1,0.0942,174.034,4,0.47,pop
+261,Eenie Meenie,Justin Bieber,My World 2.0,False,43,0.0654,0.717,0.618,0.0,1,0.0978,-4.238,1,0.0325,121.225,4,0.786,pop
+262,Up,Justin Bieber,My World 2.0,False,54,0.108,0.709,0.699,0.0,0,0.107,-4.262,1,0.042,125.931,4,0.546,pop
+263,That Should Be Me,Justin Bieber,My World 2.0,False,65,0.198,0.533,0.627,0.0,8,0.182,-5.584,1,0.0333,139.919,4,0.263,pop
+264,Grenade,Bruno Mars,Doo-Wops & Hooligans,False,76,0.146,0.706,0.558,0.0,2,0.118,-7.237,0,0.0593,110.443,4,0.227,pop
+265,Just the Way You Are,Bruno Mars,Doo-Wops & Hooligans,False,80,0.0151,0.637,0.843,0.0,5,0.0876,-5.413,1,0.0432,109.012,4,0.434,pop
+266,Our First Time,Bruno Mars,Doo-Wops & Hooligans,False,55,0.381,0.705,0.451,0.0,9,0.276,-8.221,0,0.0429,77.998,4,0.868,pop
+267,Runaway Baby,Bruno Mars,Doo-Wops & Hooligans,False,64,0.25,0.656,0.767,0.0,11,0.114,-3.038,1,0.0396,163.834,4,0.871,pop
+268,The Lazy Song,Bruno Mars,Doo-Wops & Hooligans,False,71,0.332,0.738,0.804,0.0,11,0.279,-3.851,1,0.0621,174.943,4,0.949,pop
+269,Marry You,Bruno Mars,Doo-Wops & Hooligans,False,74,0.332,0.62,0.832,0.0,10,0.104,-4.848,1,0.036,144.926,4,0.481,pop
+270,Talking to the Moon,Bruno Mars,Doo-Wops & Hooligans,False,73,0.512,0.523,0.606,0.0,1,0.106,-4.754,0,0.0301,145.837,4,0.065,pop
+271,Liquor Store Blues (feat. Damian Marley),Bruno Mars,Doo-Wops & Hooligans,False,63,0.11,0.691,0.824,0.0,1,0.353,-3.925,0,0.0731,75.516,4,0.685,pop
+272,Count on Me - EP Version,Bruno Mars,Doo-Wops & Hooligans,False,72,0.84,0.577,0.397,0.0,0,0.0772,-5.98,1,0.028,89.044,4,0.509,pop
+273,The Other Side (feat. CeeLo Green and B.o.B) - EP Version,Bruno Mars,Doo-Wops & Hooligans,False,55,0.117,0.559,0.807,4.46e-06,5,0.148,-3.887,0,0.0304,140.081,4,0.543,pop
+274,I Just Can't Go On Dying Like This,George Strait,Strait Out Of The Box,False,26,0.334,0.512,0.642,3.34e-06,0,0.235,-9.07,1,0.0338,132.695,4,0.924,country
+275,(That Don't Change) The Way I Feel About You,George Strait,Strait Out Of The Box,False,26,0.031,0.546,0.457,0.0,5,0.0947,-11.04,1,0.0302,159.701,3,0.72,country
+276,I Don't Want To Talk It Over Anymore,George Strait,Strait Out Of The Box,False,25,0.144,0.478,0.519,0.0,0,0.14,-10.473,1,0.0305,117.002,4,0.545,country
+277,Unwound,George Strait,Strait Out Of The Box,False,29,0.112,0.705,0.552,3.8e-06,10,0.0564,-12.117,1,0.0363,138.962,4,0.817,country
+278,Blame It On Mexico,George Strait,Strait Out Of The Box,False,30,0.424,0.632,0.491,0.0,0,0.109,-11.691,1,0.0309,100.881,4,0.854,country
+279,Her Goodbye Hit Me In The Heart,George Strait,Strait Out Of The Box,False,28,0.351,0.732,0.5,2.82e-06,0,0.0934,-11.149,1,0.0301,132.623,4,0.512,country
+280,If You're Thinking You Want A Stranger (There's One Coming Home),George Strait,Strait Out Of The Box,False,29,0.206,0.675,0.597,0.0,8,0.21,-9.678,1,0.0326,115.632,4,0.682,country
+281,Any Old Love Won't Do,George Strait,Strait Out Of The Box,False,27,0.709,0.515,0.441,0.0185,2,0.0805,-12.179,1,0.0266,113.204,4,0.539,country
+282,Fool Hearted Memory,George Strait,Strait Out Of The Box,False,41,0.335,0.467,0.568,1.51e-06,10,0.119,-9.944,1,0.0385,177.633,4,0.623,country
+283,Marina Del Rey,George Strait,Strait Out Of The Box,False,31,0.64,0.583,0.417,0.00164,2,0.378,-11.103,1,0.0276,110.147,4,0.292,country
+284,I Can't See Texas From Here,George Strait,Strait Out Of The Box,False,28,0.0673,0.708,0.789,8.28e-06,7,0.376,-9.833,0,0.0415,104.717,4,0.793,country
+285,Heartbroke,George Strait,Strait Out Of The Box,False,25,0.183,0.513,0.683,2.69e-05,0,0.329,-9.793,1,0.038,191.226,4,0.816,country
+286,What Would Your Memories Do,George Strait,Strait Out Of The Box,False,25,0.567,0.42,0.292,0.001,7,0.114,-13.42,1,0.0251,71.797,3,0.208,country
+287,Amarillo By Morning,George Strait,Strait Out Of The Box,False,33,0.218,0.571,0.484,0.000367,9,0.437,-13.379,1,0.0415,120.822,4,0.542,country
+288,I Thought I Heard You Calling My Name,George Strait,Strait Out Of The Box,False,25,0.127,0.524,0.613,0.0,2,0.154,-8.045,1,0.0286,120.065,4,0.606,country
+289,A Fire I Can't Put Out,George Strait,Strait Out Of The Box,False,28,0.331,0.559,0.544,1.43e-05,3,0.179,-10.301,1,0.0369,108.711,4,0.555,country
+290,You Look So Good In Love,George Strait,Strait Out Of The Box,False,33,0.463,0.619,0.348,1.26e-05,9,0.0957,-12.721,1,0.0267,114.655,3,0.302,country
+291,80 Proof Bottle Of Tear Stopper,George Strait,Strait Out Of The Box,False,29,0.411,0.546,0.639,0.0,0,0.33,-10.304,1,0.0395,190.737,4,0.95,country
+292,Right Or Wrong,George Strait,Strait Out Of The Box,False,26,0.249,0.681,0.621,1.83e-06,11,0.0868,-10.614,0,0.0294,103.334,4,0.66,country
+293,Let's Fall To Pieces Together,George Strait,Strait Out Of The Box,False,28,0.316,0.572,0.345,4.12e-06,8,0.0853,-10.626,1,0.0256,93.921,3,0.439,country
+294,Does Fort Worth Ever Cross Your Mind,George Strait,Strait Out Of The Box,False,28,0.153,0.7,0.563,0.259,0,0.374,-10.516,1,0.0292,111.804,4,0.484,country
+295,The Cowboy Rides Away,George Strait,Strait Out Of The Box,False,34,0.017,0.678,0.631,0.00128,7,0.339,-8.982,1,0.0237,109.1,4,0.476,country
+296,The Fireman,George Strait,Strait Out Of The Box,False,31,0.148,0.622,0.857,6.05e-05,2,0.116,-7.416,1,0.0689,168.994,4,0.875,country
+297,The Chair,George Strait,Strait Out Of The Box,False,31,0.293,0.61,0.486,1.68e-05,9,0.289,-10.359,1,0.0234,89.888,4,0.525,country
+298,You're Something Special To Me,George Strait,Strait Out Of The Box,False,25,0.369,0.658,0.403,0.000271,2,0.0792,-10.875,1,0.0297,99.245,4,0.449,country
+299,Haven't You Heard,George Strait,Strait Out Of The Box,False,26,0.237,0.606,0.536,1.09e-06,4,0.127,-9.631,1,0.0276,99.362,4,0.443,country
+300,In Too Deep,George Strait,Strait Out Of The Box,False,24,0.136,0.477,0.678,9.83e-06,2,0.154,-9.276,1,0.0637,189.974,4,0.881,country
+301,Lefty's Gone,George Strait,Strait Out Of The Box,False,28,0.255,0.628,0.491,3.55e-05,9,0.0964,-9.915,1,0.0234,103.299,4,0.44,country
+302,Nobody In His Right Mind Would've Left Her,George Strait,Strait Out Of The Box,False,30,0.149,0.642,0.512,1.16e-06,5,0.16,-10.516,1,0.0253,121.012,4,0.675,country
+303,It Ain't Cool To Be Crazy About You,George Strait,Strait Out Of The Box,False,27,0.518,0.495,0.442,3.21e-06,2,0.121,-9.995,1,0.0288,184.216,4,0.479,country
+304,Ocean Front Property,George Strait,Strait Out Of The Box,False,31,0.0825,0.624,0.51,4.39e-06,2,0.232,-9.919,1,0.027,78.306,3,0.775,country
+305,Rhythm Of The Road,George Strait,Strait Out Of The Box,False,24,0.197,0.682,0.876,0.000664,9,0.0714,-9.375,1,0.0562,116.859,4,0.943,country
+306,Six Pack To Go,George Strait,Strait Out Of The Box,False,26,0.539,0.563,0.603,2.19e-05,10,0.103,-9.128,1,0.0623,163.248,4,0.729,country
+307,All My Ex's Live In Texas,George Strait,Strait Out Of The Box,False,31,0.188,0.728,0.52,8.38e-05,9,0.0694,-9.549,1,0.0304,130.542,4,0.647,country
+308,Am I Blue,George Strait,Strait Out Of The Box,False,24,0.204,0.596,0.637,0.0316,0,0.251,-8.054,1,0.0373,189.464,4,0.859,country
+309,Famous Last Words Of A Fool,George Strait,Strait Out Of The Box,False,28,0.627,0.526,0.352,0.000662,2,0.161,-10.698,1,0.0266,100.758,3,0.195,country
+310,Baby Blue,George Strait,Strait Out Of The Box,False,29,0.608,0.454,0.443,1.24e-05,4,0.0673,-11.043,1,0.0278,130.521,4,0.299,country
+311,If You Ain't Lovin' (You Ain't Livin'),George Strait,Strait Out Of The Box,False,25,0.0621,0.549,0.669,0.0,7,0.0867,-9.399,1,0.0313,154.698,4,0.814,country
+312,Baby's Gotten Good At Goodbye,George Strait,Strait Out Of The Box,False,29,0.593,0.45,0.472,7.28e-06,3,0.0708,-10.344,1,0.0274,183.614,4,0.474,country
+313,Bigger Man Than Me,George Strait,Strait Out Of The Box,False,23,0.172,0.67,0.635,0.00319,2,0.124,-9.419,1,0.0287,127.604,4,0.624,country
+314,Hollywood Squares,George Strait,Strait Out Of The Box,False,23,0.458,0.683,0.563,1.55e-05,7,0.0946,-9.733,1,0.0314,130.13,4,0.748,country
+315,What's Going On In Your World,George Strait,Strait Out Of The Box,False,25,0.504,0.383,0.407,0.00236,11,0.115,-10.151,1,0.0255,80.955,4,0.397,country
+316,Ace In The Hole,George Strait,Strait Out Of The Box,False,26,0.456,0.788,0.655,4.58e-05,5,0.0982,-10.311,0,0.0382,114.789,4,0.852,country
+317,"Love Without End, Amen",George Strait,Strait Out Of The Box,False,32,0.371,0.604,0.53,5.61e-06,9,0.138,-10.609,1,0.0265,88.256,4,0.528,country
+318,Drinking Champagne,George Strait,Strait Out Of The Box,False,24,0.416,0.674,0.381,0.00685,9,0.372,-12.024,1,0.0306,101.377,4,0.399,country
+319,I've Come To Expect It From You,George Strait,Strait Out Of The Box,False,27,0.257,0.614,0.622,0.0021,11,0.198,-9.888,1,0.0319,154.156,4,0.884,country
+320,If I Know Me,George Strait,Strait Out Of The Box,False,28,0.68,0.509,0.358,2.96e-05,4,0.124,-11.521,1,0.0269,135.789,4,0.258,country
+321,You Know Me Better Than That,George Strait,Strait Out Of The Box,False,45,0.223,0.685,0.674,2.68e-05,5,0.097,-9.368,1,0.0243,91.324,4,0.516,country
+322,The Chill Of An Early Fall,George Strait,Strait Out Of The Box,False,25,0.466,0.433,0.338,0.000172,5,0.0884,-12.04,1,0.0263,149.941,4,0.269,country
+323,Lovesick Blues,George Strait,Strait Out Of The Box,False,30,0.487,0.638,0.524,2.65e-06,4,0.37,-9.755,1,0.0287,120.87,4,0.641,country
+324,Milk Cow Blues,George Strait,Strait Out Of The Box,False,24,0.451,0.626,0.54,0.00038,7,0.242,-9.081,1,0.0254,98.985,4,0.547,country
+325,Gone As A Girl Can Get,George Strait,Strait Out Of The Box,False,24,0.314,0.678,0.649,0.0,0,0.218,-11.789,1,0.0299,143.232,4,0.926,country
+326,So Much Like My Dad,George Strait,Strait Out Of The Box,False,24,0.598,0.563,0.33,0.00548,7,0.479,-13.503,1,0.0296,131.288,4,0.327,country
+327,Trains Make Me Lonesome,George Strait,Strait Out Of The Box,False,24,0.249,0.613,0.427,0.0,6,0.137,-10.817,1,0.0343,116.805,3,0.313,country
+328,Wonderland Of Love,George Strait,Strait Out Of The Box,False,22,0.215,0.53,0.74,0.0129,11,0.343,-10.583,1,0.0267,93.903,4,0.622,country
+329,I Cross My Heart - Pure Country Soundtrack Version,George Strait,Strait Out Of The Box,False,30,0.226,0.514,0.44,0.00016,3,0.102,-10.749,1,0.0268,130.943,4,0.306,country
+330,Heartland - Pure Country/Soundtrack Version,George Strait,Strait Out Of The Box,False,29,0.0255,0.452,0.878,0.000668,8,0.172,-9.93,1,0.0492,156.865,4,0.743,country
+331,When Did You Stop Loving Me,George Strait,Strait Out Of The Box,False,27,0.431,0.519,0.43,0.000627,2,0.109,-10.079,1,0.026,85.182,4,0.448,country
+332,Overnight Male - Pure Country/Soundtrack Version,George Strait,Strait Out Of The Box,False,26,0.375,0.593,0.728,1.66e-05,0,0.329,-9.45,0,0.0467,169.737,4,0.871,country
+333,The King Of Broken Hearts - Pure Country/Soundtrack Version,George Strait,Strait Out Of The Box,False,7,0.198,0.364,0.401,0.0,0,0.177,-11.441,1,0.0286,84.16,4,0.447,country
+334,Where The Sidewalk Ends - Pure Country/Soundtrack Version,George Strait,Strait Out Of The Box,False,10,0.238,0.452,0.759,8.22e-06,10,0.241,-9.662,1,0.0452,198.704,4,0.655,country
+335,"Easy Come, Easy Go",George Strait,Strait Out Of The Box,False,29,0.647,0.808,0.413,0.00379,2,0.0639,-13.011,1,0.0309,106.693,4,0.796,country
+336,I'd Like To Have That One Back,George Strait,Strait Out Of The Box,False,25,0.411,0.575,0.341,0.00014,4,0.09,-13.959,1,0.0285,79.536,4,0.215,country
+337,The Love Bug,George Strait,Strait Out Of The Box,False,26,0.463,0.519,0.803,1.19e-05,9,0.081,-10.455,1,0.0409,173.016,4,0.943,country
+338,The Man In Love With You,George Strait,Strait Out Of The Box,False,25,0.681,0.45,0.278,0.000419,0,0.3,-13.285,1,0.0294,123.493,4,0.155,country
+339,Just Look At Me,George Strait,Strait Out Of The Box,False,22,0.619,0.427,0.421,0.0,0,0.337,-10.126,1,0.0272,76.462,4,0.423,country
+340,Stay Out Of My Arms,George Strait,Strait Out Of The Box,False,6,0.197,0.618,0.649,1.5e-06,7,0.1,-10.046,1,0.0405,122.977,4,0.881,country
+341,Big Ball's In Cowtown,George Strait,Strait Out Of The Box,False,8,0.107,0.761,0.792,0.000325,0,0.226,-8.645,1,0.0312,123.36,4,0.948,country
+342,The Big One,George Strait,Strait Out Of The Box,False,24,0.22,0.63,0.705,0.0,1,0.0711,-8.708,1,0.03,128.753,4,0.873,country
+343,Fly Me To The Moon,George Strait,Strait Out Of The Box,False,37,0.663,0.529,0.382,0.0,9,0.106,-11.753,0,0.0544,145.501,4,0.688,country
+344,Check Yes Or No,George Strait,Strait Out Of The Box,False,70,0.0717,0.71,0.538,3.97e-06,5,0.0367,-12.576,1,0.0344,111.503,4,0.698,country
+345,I Know She Still Loves Me,George Strait,Strait Out Of The Box,False,26,0.259,0.593,0.25,4.58e-06,4,0.121,-16.27,1,0.035,72.176,4,0.189,country
+346,El Paso,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,25,0.897,0.586,0.539,0.000272,2,0.212,-9.61,1,0.0295,105.873,4,0.638,country
+347,Streets Of Laredo,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,43,0.932,0.471,0.261,0.0,5,0.0852,-10.86,1,0.0321,100.719,3,0.362,country
+348,Ribbon Of Darkness,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,24,0.909,0.624,0.386,6.66e-05,4,0.107,-12.883,1,0.0378,115.538,4,0.711,country
+349,Love Is Blue,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,22,0.783,0.422,0.219,0.606,0,0.097,-13.748,1,0.0288,99.535,4,0.199,country
+350,Big Iron,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,22,0.84,0.698,0.446,0.0,4,0.257,-11.052,1,0.0373,115.497,4,0.544,country
+351,Devil Woman,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,37,0.889,0.676,0.327,2.09e-06,4,0.176,-12.416,1,0.0488,145.178,4,0.671,country
+352,Don't Worry,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,30,0.918,0.514,0.256,0.00102,4,0.125,-13.069,1,0.032,98.082,4,0.477,country
+353,Tonight Carmen,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,19,0.858,0.702,0.313,1.54e-06,0,0.191,-12.615,1,0.0331,109.051,3,0.756,country
+354,You Gave Me A Mountain,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,30,0.834,0.548,0.319,0.0236,0,0.117,-15.101,1,0.0299,99.71,3,0.252,country
+355,Kaw-Liga,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,22,0.769,0.603,0.46,0.00185,4,0.106,-12.589,1,0.0345,112.473,4,0.737,country
+356,"My Woman, My Woman, My Wife",Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,24,0.906,0.426,0.333,0.0,0,0.113,-13.063,1,0.0291,103.798,3,0.329,country
+357,Padre,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,17,0.868,0.435,0.424,2.98e-06,3,0.111,-10.647,1,0.0304,93.496,4,0.185,country
+358,The Hanging Tree,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,18,0.539,0.58,0.431,0.0,5,0.392,-12.246,0,0.0429,90.849,4,0.574,country
+359,Red River Valley,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,51,0.856,0.463,0.321,0.0,7,0.274,-10.741,1,0.0319,118.433,4,0.559,country
+360,Joli Girl,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,17,0.662,0.465,0.464,0.00142,10,0.178,-12.6,1,0.0364,90.642,4,0.594,country
+361,The Girl With Gardenias In Her Hair,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,18,0.774,0.564,0.349,0.0,0,0.118,-12.152,0,0.033,104.068,4,0.655,country
+362,It's A Sin,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,16,0.685,0.499,0.372,0.0,0,0.144,-11.992,1,0.0317,115.416,3,0.337,country
+363,Maria (If I Could),Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,16,0.846,0.453,0.174,0.0054,9,0.153,-12.851,1,0.033,89.143,4,0.273,country
+364,I Walk Alone,Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,19,0.85,0.344,0.312,0.0166,0,0.137,-11.723,1,0.0399,75.09,4,0.365,country
+365,Aloha Oe (Farewell To Thee),Marty Robbins,Marty Robbins' All-Time Greatest Hits,False,31,0.935,0.474,0.227,0.0,1,0.245,-12.672,1,0.0265,86.172,4,0.204,country
+366,Crazy,Willie Nelson,Certified Hits,False,11,0.797,0.52,0.152,8.09e-05,0,0.0908,-12.811,1,0.0313,65.816,4,0.302,country
+367,Hello Walls,Willie Nelson,Certified Hits,False,10,0.652,0.578,0.297,5.13e-05,0,0.096,-11.959,1,0.0312,102.854,4,0.59,country
+368,Mr. Record Man - Remastered 2001,Willie Nelson,Certified Hits,False,7,0.556,0.635,0.361,0.000178,0,0.149,-11.909,1,0.0643,61.343,4,0.788,country
+369,Undo The Right - Digitally Remastered '01,Willie Nelson,Certified Hits,False,7,0.654,0.607,0.199,0.0,2,0.126,-12.551,1,0.0496,116.347,4,0.504,country
+370,Half A Man,Willie Nelson,Certified Hits,False,6,0.633,0.31,0.22,8.22e-06,7,0.219,-10.688,1,0.0305,76.629,3,0.24,country
+371,Three Days - Remastered 2001,Willie Nelson,Certified Hits,False,6,0.721,0.638,0.422,1.06e-06,10,0.149,-10.432,1,0.0339,135.106,4,0.762,country
+372,Funny How Time Slips Away,Willie Nelson,Certified Hits,False,9,0.748,0.347,0.281,8.05e-05,2,0.19,-12.196,1,0.0307,69.849,3,0.566,country
+373,Cold War With You - 2001 - Remastered,Willie Nelson,Certified Hits,False,6,0.708,0.771,0.249,0.0024,3,0.224,-13.673,1,0.0523,113.21,3,0.262,country
+374,Country Willie - 2001 Digital Remaster,Willie Nelson,Certified Hits,False,5,0.574,0.615,0.438,5.18e-05,2,0.296,-9.86,1,0.0335,132.738,4,0.743,country
+375,Night Life - 2001 Digital Remaster,Willie Nelson,Certified Hits,False,8,0.824,0.596,0.339,0.000811,5,0.0731,-11.248,1,0.0364,85.51,4,0.488,country
+376,I Walk the Line,Johnny Cash,I Walk the Line,False,37,0.872,0.611,0.381,0.698,10,0.102,-15.462,1,0.0347,115.148,4,0.706,country
+377,Bad News,Johnny Cash,I Walk the Line,False,32,0.745,0.688,0.617,0.0023,10,0.192,-8.627,1,0.0416,134.575,4,0.668,country
+378,Folsom Prison Blues,Johnny Cash,I Walk the Line,False,56,0.194,0.689,0.527,0.0784,5,0.278,-9.934,1,0.0314,110.519,4,0.777,country
+379,Give My Love to Rose,Johnny Cash,I Walk the Line,False,28,0.938,0.663,0.228,0.00631,10,0.099,-14.347,1,0.0514,93.233,4,0.647,country
+380,Hey Porter,Johnny Cash,I Walk the Line,False,40,0.32,0.71,0.486,0.00192,0,0.132,-11.839,1,0.048,114.796,4,0.802,country
+381,I Still Miss Someone,Johnny Cash,I Walk the Line,False,26,0.685,0.659,0.459,0.0197,9,0.135,-11.645,1,0.0337,136.051,4,0.681,country
+382,Understand Your Man,Johnny Cash,I Walk the Line,False,32,0.619,0.67,0.654,0.00887,0,0.252,-8.641,1,0.0421,91.64,4,0.842,country
+383,Wreck of the Old 97,Johnny Cash,I Walk the Line,False,27,0.528,0.796,0.445,0.087,9,0.0858,-12.868,1,0.0684,116.363,4,0.711,country
+384,Still in Town,Johnny Cash,I Walk the Line,False,24,0.683,0.661,0.44,0.00267,7,0.114,-9.932,1,0.0332,110.31,4,0.641,country
+385,Big River,Johnny Cash,I Walk the Line,False,40,0.424,0.767,0.669,0.164,4,0.146,-8.568,0,0.116,101.229,4,0.856,country
+386,"Goodbye, Little Darlin', Goodbye",Johnny Cash,I Walk the Line,False,24,0.621,0.706,0.334,0.823,8,0.343,-12.286,1,0.035,144.232,4,0.879,country
+387,Troublesome Waters,Johnny Cash,I Walk the Line,False,24,0.398,0.47,0.357,0.000422,0,0.098,-12.347,1,0.0663,178.602,4,0.23,country
+388,Sabbath Bloody Sabbath - Remastered Version,Black Sabbath,Sabbath Bloody Sabbath (Remastered Edition),False,53,0.369,0.359,0.625,7.7e-05,1,0.0674,-9.643,0,0.0351,137.764,4,0.524,rock
+389,A National Acrobat - Remastered Version,Black Sabbath,Sabbath Bloody Sabbath (Remastered Edition),False,47,0.0834,0.384,0.628,0.00462,6,0.336,-12.882,1,0.0629,71.956,4,0.573,rock
+390,Fluff - Remastered Version,Black Sabbath,Sabbath Bloody Sabbath (Remastered Edition),False,38,0.687,0.497,0.222,0.966,2,0.102,-18.067,1,0.0382,127.23,3,0.361,rock
+391,Sabbra Cadabra - Remastered Version,Black Sabbath,Sabbath Bloody Sabbath (Remastered Edition),False,45,0.0302,0.278,0.604,0.192,6,0.266,-13.542,1,0.048,166.663,4,0.778,rock
+392,Killing Yourself to Live - Remastered Version,Black Sabbath,Sabbath Bloody Sabbath (Remastered Edition),False,43,0.00113,0.336,0.624,0.0447,11,0.17,-11.909,0,0.039,128.956,4,0.469,rock
+393,Who Are You? - Remastered Version,Black Sabbath,Sabbath Bloody Sabbath (Remastered Edition),False,38,0.101,0.244,0.238,0.000552,7,0.153,-14.118,1,0.0318,109.773,4,0.152,rock
+394,Looking for Today - Remastered Version,Black Sabbath,Sabbath Bloody Sabbath (Remastered Edition),False,35,0.151,0.507,0.562,2.39e-06,4,0.284,-12.448,1,0.0363,130.042,4,0.694,rock
+395,Spiral Architect - Remastered Version,Black Sabbath,Sabbath Bloody Sabbath (Remastered Edition),False,36,0.016,0.302,0.251,2.93e-05,4,0.117,-14.142,1,0.0343,142.766,4,0.104,rock
+396,Sweet Leaf - Remastered Version,Black Sabbath,Master of Reality (Remastered Edition),False,56,0.00183,0.362,0.6,0.0426,2,0.0814,-12.285,1,0.0463,148.462,4,0.658,rock
+397,After Forever - Remastered Version,Black Sabbath,Master of Reality (Remastered Edition),False,46,0.000394,0.386,0.679,0.00123,7,0.124,-13.233,1,0.0354,95.103,4,0.474,rock
+398,Embryo - Remastered Version,Black Sabbath,Master of Reality (Remastered Edition),False,8,0.955,0.759,0.297,0.224,11,0.117,-11.15,1,0.058,79.318,4,0.961,rock
+399,Children of the Grave - Remastered Version,Black Sabbath,Master of Reality (Remastered Edition),False,60,0.0802,0.318,0.65,0.132,6,0.0962,-13.928,1,0.0375,149.994,4,0.368,rock
+400,Orchid - Remastered Version,Black Sabbath,Master of Reality (Remastered Edition),False,43,0.753,0.492,0.0499,0.834,11,0.139,-28.814,1,0.0484,101.366,3,0.631,rock
+401,Lord of This World - Remastered Version,Black Sabbath,Master of Reality (Remastered Edition),False,48,0.0322,0.399,0.56,0.00141,1,0.111,-12.701,1,0.0525,134.359,4,0.654,rock
+402,Solitude - Remastered Version,Black Sabbath,Master of Reality (Remastered Edition),False,47,0.829,0.343,0.0213,0.684,7,0.121,-28.714,0,0.0386,111.372,3,0.54,rock
+403,Into the Void - Remastered Version,Black Sabbath,Master of Reality (Remastered Edition),False,52,0.0126,0.401,0.544,0.0448,6,0.145,-13.893,1,0.0392,77.17,4,0.513,rock
+404,Rapid Fire,Judas Priest,British Steel,False,45,0.000267,0.375,0.994,0.00075,2,0.316,-5.829,1,0.0902,135.431,4,0.259,metal
+405,Metal Gods,Judas Priest,British Steel,False,47,0.0265,0.578,0.854,0.00141,6,0.146,-6.558,0,0.0296,101.181,4,0.424,metal
+406,Breaking the Law,Judas Priest,British Steel,False,70,0.024,0.362,0.961,9.35e-06,2,0.159,-5.664,1,0.0857,164.019,4,0.491,metal
+407,Grinder,Judas Priest,British Steel,False,46,0.0673,0.437,0.881,4.05e-05,2,0.104,-4.934,1,0.0561,139.895,4,0.592,metal
+408,United,Judas Priest,British Steel,False,47,0.278,0.633,0.643,0.0,6,0.286,-6.791,0,0.0574,84.53,4,0.724,metal
+409,You Don't Have to Be Old to Be Wise,Judas Priest,British Steel,False,38,0.0051,0.521,0.931,5.01e-05,2,0.0581,-6.07,1,0.0529,135.68,4,0.495,metal
+410,Living After Midnight,Judas Priest,British Steel,False,64,0.0136,0.61,0.824,1.75e-06,4,0.0606,-6.046,1,0.0534,134.992,4,0.819,metal
+411,The Rage,Judas Priest,British Steel,False,38,0.00441,0.344,0.751,0.0285,9,0.133,-6.157,0,0.0718,153.422,4,0.553,metal
+412,Steeler,Judas Priest,British Steel,False,38,0.00124,0.468,0.981,0.264,9,0.294,-5.926,1,0.0467,105.012,4,0.438,metal
+413,"Red, White & Blue",Judas Priest,British Steel,False,33,0.000382,0.178,0.628,6.85e-05,2,0.152,-8.267,1,0.0355,99.766,4,0.456,metal
+414,Grinder - Live,Judas Priest,British Steel,False,32,9.8e-05,0.409,0.876,0.0753,2,0.934,-8.453,1,0.0626,138.229,4,0.361,metal
+415,Cowboys From Hell,Pantera,Cowboys From Hell,True,71,0.00437,0.415,0.908,0.0345,2,0.082,-9.701,1,0.0765,114.816,4,0.437,metal
+416,Primal Concrete Sledge,Pantera,Cowboys From Hell,True,52,0.000117,0.38,0.847,0.265,2,0.216,-12.352,1,0.0897,133.182,4,0.119,metal
+417,Psycho Holiday,Pantera,Cowboys From Hell,True,51,8.49e-06,0.291,0.925,0.114,6,0.0733,-9.901,0,0.0714,104.12,4,0.233,metal
+418,Heresy,Pantera,Cowboys From Hell,True,50,3.45e-05,0.304,0.912,0.853,11,0.113,-13.313,0,0.0438,173.098,4,0.362,metal
+419,Cemetery Gates,Pantera,Cowboys From Hell,True,66,0.000212,0.274,0.726,0.0113,9,0.0993,-11.541,1,0.0449,146.449,4,0.426,metal
+420,Domination,Pantera,Cowboys From Hell,True,63,0.000211,0.372,0.888,0.00442,2,0.115,-5.88,1,0.0943,141.374,4,0.555,metal
+421,Shattered,Pantera,Cowboys From Hell,True,45,2.62e-05,0.342,0.82,0.749,1,0.104,-10.91,0,0.046,119.421,4,0.525,metal
+422,Clash With Reality,Pantera,Cowboys From Hell,True,43,7.06e-06,0.297,0.868,0.568,6,0.208,-11.075,0,0.0436,93.789,4,0.702,metal
+423,Medicine Man,Pantera,Cowboys From Hell,True,43,0.0024,0.488,0.847,0.374,6,0.204,-11.921,0,0.0563,103.61,4,0.522,metal
+424,Message In Blood,Pantera,Cowboys From Hell,True,44,0.000178,0.446,0.831,0.105,7,0.403,-12.176,1,0.0521,83.963,3,0.55,metal
+425,The Sleep,Pantera,Cowboys From Hell,True,49,0.018,0.372,0.701,0.00317,9,0.287,-11.145,0,0.0528,87.964,4,0.419,metal
+426,The Art Of Shredding,Pantera,Cowboys From Hell,True,46,0.000128,0.364,0.88,0.806,2,0.287,-11.859,1,0.0641,118.668,4,0.435,metal
+427,Enter Sandman,Metallica,Metallica,False,74,0.00206,0.579,0.824,0.00903,6,0.059,-8.71,0,0.03,123.331,4,0.635,metal
+428,Sad But True,Metallica,Metallica,False,64,0.000773,0.632,0.845,0.00152,7,0.0618,-6.336,1,0.0333,89.232,4,0.433,metal
+429,Holier Than Thou,Metallica,Metallica,False,53,0.000288,0.48,0.959,0.674,5,0.0507,-6.227,1,0.0376,172.186,4,0.348,metal
+430,The Unforgiven,Metallica,Metallica,False,67,0.0108,0.539,0.597,0.00552,7,0.134,-9.581,1,0.0258,139.444,4,0.251,metal
+431,Wherever I May Roam,Metallica,Metallica,False,62,0.000526,0.554,0.816,0.000711,11,0.0988,-7.871,1,0.0353,131.409,4,0.362,metal
+432,Don't Tread On Me,Metallica,Metallica,False,55,0.00453,0.674,0.833,0.00574,2,0.274,-7.625,1,0.0393,107.991,4,0.682,metal
+433,Through The Never,Metallica,Metallica,False,53,0.00742,0.391,0.929,0.382,4,0.183,-6.773,0,0.0426,93.919,4,0.524,metal
+434,Nothing Else Matters,Metallica,Metallica,False,71,0.0505,0.558,0.364,5.02e-06,4,0.0753,-11.258,0,0.0265,142.171,3,0.17,metal
+435,Of Wolf And Man,Metallica,Metallica,False,54,0.000881,0.627,0.752,0.0299,5,0.105,-7.691,1,0.0346,121.775,4,0.472,metal
+436,The God That Failed,Metallica,Metallica,False,51,0.000477,0.563,0.8,0.000523,8,0.118,-6.565,1,0.039,83.09,4,0.431,metal
+437,My Friend Of Misery,Metallica,Metallica,False,51,0.000297,0.584,0.816,0.0151,9,0.102,-8.101,0,0.0346,119.534,4,0.361,metal
+438,The Struggle Within,Metallica,Metallica,False,47,0.000447,0.475,0.924,0.0408,0,0.227,-7.351,1,0.0502,98.843,4,0.513,metal
+439,Bombtrack,Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),True,65,0.0239,0.459,0.926,1.93e-05,4,0.183,-3.415,1,0.155,151.534,4,0.569,metal
+440,Killing In The Name,Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),True,79,0.0266,0.466,0.833,0.0,7,0.0327,-4.215,1,0.304,88.785,4,0.661,metal
+441,Take The Power Back,Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),True,60,0.0728,0.62,0.912,7.15e-05,1,0.249,-4.011,1,0.221,106.236,4,0.291,metal
+442,Settle For Nothing,Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),False,49,0.0299,0.501,0.654,1.32e-05,4,0.172,-5.204,0,0.038,97.972,4,0.304,metal
+443,Bullet In The Head,Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),True,59,0.00673,0.431,0.855,0.00114,9,0.639,-4.205,1,0.15,163.014,4,0.397,metal
+444,Know Your Enemy,Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),True,63,0.0125,0.575,0.857,0.00229,4,0.145,-3.961,1,0.155,117.413,4,0.623,metal
+445,Wake Up,Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),False,65,0.00563,0.411,0.893,0.00967,7,0.149,-3.646,1,0.139,170.407,4,0.513,metal
+446,Fistful Of Steel,Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),False,51,0.0191,0.529,0.827,0.195,11,0.0938,-6.413,0,0.114,155.529,4,0.585,metal
+447,Township Rebellion,Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),True,49,0.00863,0.542,0.704,0.00285,2,0.113,-5.166,1,0.0511,134.068,4,0.44,metal
+448,Freedom,Rage Against The Machine,Rage Against The Machine - XX (20th Anniversary Special Edition),False,54,0.000893,0.503,0.678,0.0134,7,0.348,-5.552,1,0.103,112.277,4,0.501,metal
+449,People of the Sun,Rage Against The Machine,Evil Empire,True,59,0.00407,0.53,0.871,0.0207,7,0.272,-6.361,1,0.302,93.046,4,0.706,metal
+450,Bulls On Parade,Rage Against The Machine,Evil Empire,True,74,0.0124,0.412,0.919,0.0601,5,0.424,-7.291,1,0.184,166.367,4,0.572,metal
+451,Vietnow,Rage Against The Machine,Evil Empire,True,56,0.0102,0.654,0.77,0.00827,11,0.35,-6.443,0,0.106,107.781,4,0.668,metal
+452,Revolver,Rage Against The Machine,Evil Empire,True,53,0.00876,0.35,0.792,0.0249,7,0.0661,-8.214,1,0.0951,138.38,4,0.156,metal
+453,Snakecharmer,Rage Against The Machine,Evil Empire,True,49,0.00732,0.553,0.883,0.0488,7,0.0599,-7.302,1,0.0618,136.711,4,0.463,metal
+454,Tire Me,Rage Against The Machine,Evil Empire,True,48,0.000799,0.282,0.869,0.0668,2,0.514,-8.32,1,0.0833,164.38,4,0.281,metal
+455,Down Rodeo,Rage Against The Machine,Evil Empire,True,55,0.00535,0.427,0.867,0.000846,7,0.0785,-9.077,1,0.128,170.256,4,0.56,metal
+456,Without a Face,Rage Against The Machine,Evil Empire,True,49,0.00534,0.425,0.808,0.179,9,0.175,-8.376,0,0.221,92.257,4,0.369,metal
+457,Wind Below,Rage Against The Machine,Evil Empire,True,46,0.00257,0.387,0.744,0.196,9,0.467,-9.64,1,0.0743,138.516,4,0.443,metal
+458,Roll Right,Rage Against The Machine,Evil Empire,True,54,0.014,0.527,0.789,0.0133,9,0.381,-8.049,1,0.0694,86.137,4,0.452,metal
+459,Year of tha Boomerang,Rage Against The Machine,Evil Empire,True,47,0.000499,0.354,0.711,0.000423,4,0.245,-10.134,0,0.149,84.268,4,0.518,metal
+460,Never Again,Killswitch Engage,Killswitch Engage [Special Edition],False,31,1.3e-05,0.469,0.995,0.239,8,0.348,-3.099,1,0.142,150.024,3,0.144,metal
+461,Starting Over,Killswitch Engage,Killswitch Engage [Special Edition],False,41,2.7e-05,0.384,0.998,0.00573,5,0.885,-3.285,0,0.153,184.077,4,0.138,metal
+462,The Forgotten,Killswitch Engage,Killswitch Engage [Special Edition],False,38,2.14e-05,0.33,0.976,0.334,2,0.174,-3.284,0,0.103,115.747,4,0.399,metal
+463,Reckoning,Killswitch Engage,Killswitch Engage [Special Edition],False,38,1.82e-05,0.479,0.992,0.542,8,0.381,-2.977,1,0.105,111.032,3,0.356,metal
+464,The Return,Killswitch Engage,Killswitch Engage [Special Edition],False,31,0.000624,0.493,0.991,0.00134,0,0.158,-4.091,0,0.0892,133.961,4,0.229,metal
+465,A Light In A Darkened World,Killswitch Engage,Killswitch Engage [Special Edition],False,38,7.26e-05,0.539,0.994,0.636,7,0.566,-3.248,0,0.0868,95.053,3,0.148,metal
+466,Take Me Away,Killswitch Engage,Killswitch Engage [Special Edition],False,38,2.61e-05,0.323,0.98,0.0508,9,0.107,-3.807,0,0.0673,167.438,3,0.547,metal
+467,I Would Do Anything,Killswitch Engage,Killswitch Engage [Special Edition],False,29,3.66e-06,0.549,0.96,0.164,8,0.328,-3.622,1,0.0664,130.012,4,0.578,metal
+468,Save Me,Killswitch Engage,Killswitch Engage [Special Edition],False,32,2.82e-05,0.405,0.977,0.104,2,0.204,-3.934,0,0.0624,92.952,3,0.309,metal
+469,Lost,Killswitch Engage,Killswitch Engage [Special Edition],False,30,1.74e-05,0.522,0.96,0.00877,5,0.257,-3.254,0,0.0486,126.007,4,0.5,metal
+470,This Is Goodbye,Killswitch Engage,Killswitch Engage [Special Edition],False,29,2.86e-05,0.492,0.988,0.437,5,0.0807,-3.782,0,0.0956,140.017,4,0.147,metal
+471,In A Dead World,Killswitch Engage,Killswitch Engage [Special Edition],False,29,9.39e-05,0.484,0.989,0.159,3,0.0531,-3.989,1,0.0798,104.896,3,0.297,metal
+472,Rose of Sharyn [Live],Killswitch Engage,Killswitch Engage [Special Edition],False,28,0.00036,0.354,0.992,8.95e-05,8,0.342,-3.869,1,0.0857,93.513,4,0.178,metal
+473,My Curse [Live],Killswitch Engage,Killswitch Engage [Special Edition],False,27,0.00223,0.316,0.971,0.000463,5,0.078,-4.328,0,0.0963,92.8,3,0.153,metal
+474,Holy Diver [Live],Killswitch Engage,Killswitch Engage [Special Edition],False,27,0.00143,0.343,0.979,0.00054,8,0.835,-4.656,1,0.102,92.019,4,0.166,metal
+475,Hourglass,Zedd,Clarity,False,46,0.0319,0.646,0.832,0.00147,8,0.0947,-5.008,1,0.0778,127.025,4,0.0468,pop
+476,Shave It Up,Zedd,Clarity,False,38,0.000176,0.539,0.965,0.83,5,0.334,-4.213,0,0.0379,129.942,4,0.293,pop
+477,Spectrum,Zedd,Clarity,False,64,0.0137,0.609,0.801,0.00349,0,0.127,-4.417,0,0.034,129.99,4,0.407,pop
+478,Lost At Sea,Zedd,Clarity,False,54,0.0247,0.567,0.796,0.0,6,0.124,-3.534,1,0.0364,127.983,4,0.305,pop
+479,Clarity,Zedd,Clarity,False,75,0.0398,0.509,0.781,0.0,8,0.0749,-3.48,1,0.072,128.0,4,0.176,pop
+480,Codec,Zedd,Clarity,False,42,0.00287,0.755,0.74,0.355,7,0.0762,-4.928,1,0.0468,128.009,4,0.506,pop
+481,Stache,Zedd,Clarity,False,40,0.00122,0.572,0.921,0.564,7,0.315,-4.219,0,0.12,127.976,4,0.371,pop
+482,Fall Into The Sky,Zedd,Clarity,False,49,0.0362,0.656,0.956,0.0384,7,0.138,-3.635,1,0.0699,128.001,4,0.54,pop
+483,Follow You Down,Zedd,Clarity,False,50,0.00792,0.688,0.694,0.0117,9,0.365,-5.335,0,0.0451,128.009,4,0.576,pop
+484,Epos,Zedd,Clarity,False,37,0.000186,0.505,0.629,0.758,8,0.0541,-6.404,1,0.0674,127.993,3,0.382,pop
+485,Embrace,Armin van Buuren,Embrace,False,41,0.0739,0.448,0.798,0.115,6,0.0512,-7.1,0,0.112,133.981,4,0.0706,trance
+486,Another You,Armin van Buuren,Embrace,False,55,0.00807,0.59,0.647,4.3e-05,6,0.0921,-5.06,0,0.033,127.979,4,0.39,trance
+487,Strong Ones,Armin van Buuren,Embrace,False,50,0.0118,0.576,0.848,0.0,11,0.246,-5.347,1,0.0603,127.94,4,0.704,trance
+488,Make It Right,Armin van Buuren,Embrace,False,32,0.0033,0.598,0.652,0.000676,9,0.307,-6.28,1,0.03,127.919,4,0.439,trance
+489,Face Of Summer,Armin van Buuren,Embrace,False,32,0.0202,0.515,0.841,0.186,11,0.0911,-6.878,0,0.0339,126.999,4,0.105,trance
+490,Heading Up High,Armin van Buuren,Embrace,False,55,0.0034,0.52,0.926,0.00188,1,0.111,-4.774,0,0.0873,128.027,4,0.196,trance
+491,Gotta Be Love,Armin van Buuren,Embrace,False,31,0.00692,0.616,0.819,0.195,3,0.0826,-6.384,0,0.0424,129.991,4,0.487,trance
+492,Hands To Heaven,Armin van Buuren,Embrace,False,32,0.0172,0.556,0.809,0.569,7,0.118,-6.63,0,0.0415,127.959,4,0.236,trance
+493,Caught In The Slipstream,Armin van Buuren,Embrace,False,41,0.00887,0.584,0.852,0.0232,2,0.143,-6.269,0,0.0427,131.963,4,0.112,trance
+494,Embargo,Armin van Buuren,Embrace,False,45,8.54e-05,0.56,0.831,0.962,8,0.0971,-7.02,0,0.0456,127.983,4,0.146,trance
+495,Freefall,Armin van Buuren,Embrace,False,37,0.0148,0.572,0.723,0.0,2,0.246,-5.631,1,0.0427,130.969,4,0.184,trance
+496,Indestructible,Armin van Buuren,Embrace,False,42,0.0088,0.613,0.723,0.0171,0,0.123,-5.694,0,0.0287,128.016,4,0.506,trance
+497,Old Skool,Armin van Buuren,Embrace,False,41,0.000646,0.688,0.946,0.171,0,0.35,-5.694,1,0.0637,131.994,4,0.51,trance
+498,Off The Hook,Hardwell,Embrace,False,32,0.000432,0.628,0.96,0.844,9,0.0977,-7.478,1,0.0477,130.013,4,0.0361,house
+499,Looking For Your Name,Armin van Buuren,Embrace,False,48,0.753,0.22,0.279,0.0,4,0.127,-11.179,1,0.0341,74.026,3,0.148,trance
+500,Needed You,ILLENIUM,Awake,False,59,0.158,0.173,0.717,0.000417,1,0.089,-4.292,0,0.0475,183.745,5,0.317,edm
+501,Crawl Outta Love,ILLENIUM,Awake,False,61,0.178,0.376,0.723,0.0,7,0.0815,-2.951,1,0.046,84.146,4,0.167,edm
+502,No Time Like Now,ILLENIUM,Awake,False,55,0.154,0.541,0.564,0.874,10,0.0967,-5.027,0,0.0448,71.009,4,0.203,edm
+503,Free Fall,ILLENIUM,Awake,False,59,0.458,0.429,0.524,6.17e-05,2,0.124,-4.399,1,0.0383,133.97,4,0.227,edm
+504,Where'd U Go,ILLENIUM,Awake,False,61,0.0302,0.464,0.637,3.37e-05,2,0.0876,-4.37,1,0.0694,186.1,4,0.281,edm
+505,Fractures,ILLENIUM,Awake,False,59,0.373,0.41,0.711,0.00179,4,0.139,-3.064,1,0.0432,159.837,4,0.266,edm
+506,Leaving,ILLENIUM,Awake,False,61,0.0359,0.281,0.639,1.7e-05,11,0.951,-3.452,1,0.0381,140.776,4,0.186,edm
+507,Lost,ILLENIUM,Awake,False,60,0.101,0.673,0.616,0.00653,8,0.0966,-5.906,1,0.0482,135.048,4,0.327,edm
+508,Sound of Walking Away,ILLENIUM,Awake,False,59,0.075,0.345,0.79,0.000165,2,0.101,-2.761,1,0.065,179.849,4,0.208,edm
+509,Taking Me Higher,ILLENIUM,Awake,False,50,0.776,0.404,0.579,0.831,9,0.101,-6.815,1,0.0267,98.063,4,0.0693,edm
+510,Feel Good,ILLENIUM,Awake,False,1,0.22,0.625,0.707,0.0,2,0.213,-4.761,1,0.0337,138.064,4,0.479,edm
+511,Beautiful Creatures (feat. MAX),ILLENIUM,Awake,False,67,0.0663,0.589,0.826,0.000735,0,0.367,-4.577,0,0.0776,117.099,4,0.215,edm
+512,Let You Go,ILLENIUM,Awake,False,59,0.398,0.351,0.509,5.09e-05,7,0.195,-6.173,1,0.0321,108.151,4,0.129,edm
+513,Divinity,Porter Robinson,Worlds,False,61,0.00899,0.496,0.549,0.0248,2,0.0802,-5.414,1,0.034,89.997,4,0.14,electro
+514,Sad Machine,Porter Robinson,Worlds,False,63,0.0344,0.475,0.703,1.96e-06,0,0.0723,-4.9,0,0.034,88.518,4,0.299,electro
+515,Years Of War,Porter Robinson,Worlds,False,52,0.00704,0.52,0.745,0.00238,11,0.119,-5.062,1,0.0341,109.988,4,0.208,electro
+516,Flicker,Porter Robinson,Worlds,False,55,0.0341,0.587,0.717,0.000426,1,0.166,-3.748,1,0.118,91.992,4,0.569,electro
+517,Fresh Static Snow,Porter Robinson,Worlds,False,50,0.0077,0.628,0.508,0.0161,9,0.113,-5.794,1,0.0435,90.982,4,0.216,electro
+518,Polygon Dust,Porter Robinson,Worlds,False,48,0.028,0.339,0.771,0.0,0,0.0806,-3.287,0,0.0506,93.189,4,0.406,electro
+519,Hear The Bells,Porter Robinson,Worlds,False,48,0.449,0.306,0.635,3.95e-06,0,0.287,-3.86,1,0.0313,139.969,4,0.0847,electro
+520,Natural Light,Porter Robinson,Worlds,False,46,0.374,0.434,0.269,0.845,8,0.102,-11.041,1,0.124,67.56,4,0.0842,electro
+521,Lionhearted,Porter Robinson,Worlds,False,56,0.0233,0.621,0.731,0.000866,8,0.15,-6.924,1,0.0344,120.01,4,0.357,electro
+522,Sea Of Voices,Porter Robinson,Worlds,False,57,0.212,0.184,0.433,0.618,2,0.068,-8.134,1,0.0306,127.372,4,0.0393,electro
+523,Fellow Feeling,Porter Robinson,Worlds,False,48,0.0985,0.339,0.541,0.158,8,0.305,-5.332,0,0.0751,128.103,3,0.11,electro
+524,Goodbye To A World,Porter Robinson,Worlds,False,56,0.443,0.441,0.366,0.0998,9,0.0823,-7.186,1,0.0506,95.965,3,0.101,electro
+525,Falling Up,Dillon Francis,Something Something Awesome EP,False,27,0.000297,0.683,0.782,0.348,1,0.304,-4.778,1,0.0379,112.05,4,0.192,electro
+526,Now Hear This,Dillon Francis,Something Something Awesome EP,False,24,0.000519,0.669,0.782,0.00403,6,0.254,-5.333,1,0.051,111.956,4,0.172,electro
+527,Dill the Noise,Dillon Francis,Something Something Awesome EP,False,37,0.000176,0.693,0.79,0.432,9,0.0638,-4.595,0,0.0328,112.007,4,0.428,electro
+528,Forever Tonight,Galantis,Pharmacy,False,46,0.101,0.716,0.791,0.0232,11,0.0562,-3.028,1,0.0492,127.92,4,0.595,house
+529,Gold Dust,Galantis,Pharmacy,False,54,0.00635,0.242,0.746,0.00397,2,0.107,-4.496,1,0.0361,127.997,4,0.128,house
+530,In My Head,Galantis,Pharmacy,False,55,0.00622,0.548,0.895,0.0184,0,0.108,-2.794,1,0.0392,127.829,4,0.616,house
+531,Runaway (U & I),Galantis,Pharmacy,False,76,0.00711,0.506,0.805,0.00193,1,0.0856,-4.119,1,0.0469,126.008,4,0.383,house
+532,Dancin' to the Sound of a Broken Heart,Galantis,Pharmacy,False,47,0.149,0.535,0.81,0.0,4,0.344,-3.23,1,0.0757,128.187,4,0.38,house
+533,"Louder, Harder, Better",Galantis,Pharmacy,False,50,0.00138,0.55,0.918,3.87e-06,11,0.112,-3.161,0,0.0671,125.009,4,0.245,house
+534,Kill 'Em with the Love,Galantis,Pharmacy,False,44,0.379,0.585,0.888,0.000169,8,0.0594,-3.086,0,0.0997,125.049,4,0.552,house
+535,Call If You Need Me,Galantis,Pharmacy,False,47,0.0445,0.385,0.853,0.0473,10,0.187,-2.69,1,0.0359,120.422,4,0.484,house
+536,Peanut Butter Jelly,Galantis,Pharmacy,False,68,0.00104,0.708,0.945,0.0803,5,0.227,-3.247,0,0.234,127.96,4,0.545,house
+537,Firebird,Galantis,Pharmacy,False,55,0.00145,0.547,0.878,0.344,3,0.336,-4.245,1,0.0485,128.018,4,0.405,house
+538,Don't Care,Galantis,Pharmacy,False,47,0.00518,0.502,0.856,1.48e-06,4,0.151,-3.917,1,0.0573,128.124,4,0.311,house
+539,You,Galantis,Pharmacy,False,54,0.00837,0.184,0.871,0.167,8,0.15,-3.245,0,0.0661,127.972,4,0.21,house
+540,Water,Galantis,Pharmacy,False,44,0.0483,0.394,0.704,0.0,7,0.173,-4.734,0,0.0447,127.901,4,0.124,house
+541,Now Or Never - Original Mix,Tritonal,Tritonia - Chapter 001,False,35,0.0341,0.528,0.848,0.0217,6,0.284,-4.242,0,0.06,127.975,4,0.235,house
+542,Move Into Light - Husman vs Original Mix,Juventa,Tritonia - Chapter 001,False,21,0.00218,0.511,0.799,0.0015,9,0.392,-4.143,1,0.057,128.039,4,0.443,trance
+543,Till The End - Original Mix,Tristan D,Tritonia - Chapter 001,False,19,0.00693,0.639,0.742,0.592,5,0.543,-5.968,0,0.0323,128.006,4,0.237,
+544,Amazing - Original Mix,Suspect 44,Tritonia - Chapter 001,False,19,0.000857,0.613,0.886,0.15,5,0.182,-4.73,0,0.0645,128.017,4,0.198,house
+545,Shoesham - Original Mix,Estiva,Tritonia - Chapter 001,False,18,0.00584,0.632,0.815,0.188,1,0.164,-4.516,1,0.0475,128.044,4,0.131,trance
+546,Satellite - Instrumental Mix,Tritonal,Tritonia - Chapter 001,False,25,0.0984,0.513,0.769,3.83e-05,10,0.266,-4.45,0,0.0396,128.07,4,0.174,house
+547,TomB Raider - Original Mix,Tommy Baynen,Tritonia - Chapter 001,False,17,0.0106,0.541,0.965,0.588,1,0.585,-4.501,1,0.262,128.027,4,0.0475,edm
+548,Electric Glow - Original Mix,Tritonal,Tritonia - Chapter 001,False,25,0.0476,0.473,0.896,0.000804,6,0.391,-4.908,0,0.0548,127.974,4,0.244,house
+549,Two To One - Jaco Vocal Mix,Adam Szabo,Tritonia - Chapter 001,False,19,0.00135,0.525,0.863,0.000193,4,0.257,-4.795,1,0.0705,127.891,4,0.303,trance
+550,Rockin' Steady - Original Mix,Rick Mitchells,Tritonia - Chapter 001,False,15,0.0113,0.639,0.986,0.526,5,0.456,-3.472,0,0.145,128.081,4,0.158,trance
+551,Collide - Original Mix,Tritonal,Tritonia - Chapter 001,False,23,0.00176,0.519,0.87,0.00249,2,0.218,-4.148,0,0.0552,128.024,4,0.214,house
+552,Sydneysider - Original Mix,Kevin Charm,Tritonia - Chapter 001,False,16,0.000878,0.421,0.839,0.851,10,0.198,-5.412,1,0.0554,127.998,4,0.19,
+553,Ride Of Your Life - Original Mix,APD,Tritonia - Chapter 001,False,15,0.000128,0.465,0.713,0.000651,8,0.0856,-7.921,1,0.0643,127.8,4,0.108,
+554,Boxmeister - Original Mix,Estiva,Tritonia - Chapter 001,False,17,0.0523,0.588,0.669,0.011,10,0.116,-3.928,0,0.0684,128.028,4,0.191,trance
+555,Adrenaline - Original Mix,Lush & Simon,Tritonia - Chapter 001,False,18,0.000533,0.434,0.859,0.29,1,0.123,-4.177,1,0.0493,127.985,4,0.135,edm
+556,Xperience - Original Mix,Juventa,Tritonia - Chapter 001,False,16,0.0022,0.462,0.826,4.3e-06,7,0.473,-5.454,1,0.11,128.09,4,0.159,trance
+557,Koalastrike - Original Mix,Estiva,Tritonia - Chapter 001,False,16,0.00132,0.558,0.85,0.638,11,0.428,-5.538,0,0.0424,127.999,4,0.712,trance
+558,Won't Let You Go - Tritonal Remix,Armin van Buuren,Tritonia - Chapter 001,False,17,0.0233,0.554,0.946,0.312,11,0.142,-3.074,0,0.158,128.018,4,0.289,trance
+559,Sleepwalking - Juventa Remix,The Chain Gang Of 1974,Tritonia - Chapter 001,False,17,9.78e-05,0.559,0.889,0.0,0,0.59,-4.267,1,0.13,128.009,4,0.389,pop
+560,Now Or Never - Tritonal Club Mix,Tritonal,Tritonia - Chapter 001,False,21,0.0427,0.546,0.974,0.212,4,0.112,-2.513,1,0.0625,128.02,4,0.435,house
+561,Bullet That Saved Me - Festival Mix,Tritonal,Tritonia - Chapter 001,False,20,0.166,0.532,0.945,0.332,8,0.226,-3.505,1,0.038,127.933,4,0.267,house
+562,Reason To Believe - Fractal Remix,Aruna,Tritonia - Chapter 001,False,15,0.0251,0.575,0.864,0.0991,7,0.326,-5.019,0,0.0437,110.047,4,0.576,trance
