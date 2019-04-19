@@ -170,11 +170,16 @@ alda_nn <- function(x_train, x_test, y_train, parameter_grid){
   
   # allowed packages: R-base, nnet, caret, dplyr
   
+  # parameter_grid <- expand.grid(size=c(4, 8, 16), decay = c(0.2, 0.5, 0.002, 0.005))
   
+  # 10 Fold CV
+  mymodel <- train(x=x_train, y=y_train, method="nnet", nfolds=10, metric="Accuracy", tuneGrid=parameter_grid, trace=FALSE)
+  # results: The final values used for the model were size = 16 and decay = 0.2.
   
-  
-  
-  
+  mypredictions <- predict(mymodel, newdata=x_test)
+
+  mylist <- list(mymodel, factor(mypredictions, c(0,1,2)))
+  return(mylist)
 }
 
 
