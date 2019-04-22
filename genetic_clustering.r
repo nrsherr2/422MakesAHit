@@ -17,7 +17,7 @@ next_gen <- function(userchoice, population){
   newpop <- population
   for(i in 2:(nrow(population-1))){
     for(j in 1:length(population[i,])){
-      newpop[i,j] <- population[i-1,j] + population[i,j] + population[i+1,j]
+      newpop[i,j] <- population[i-1,j] + population[i,j] + population[i+1,j] - 20
     }
   }
   newpop[1,] <- population[userchoice,]
