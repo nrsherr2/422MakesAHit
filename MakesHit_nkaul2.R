@@ -16,16 +16,18 @@ p + geom_jitter(alpha=0.3) +
   scale_color_manual(breaks = c('country','edm', 'rock', 'rap', 'pop', 'metal'),
                      values=c('darkgreen','red', 'blue', 'black', 'green', 'orange'))
 
-sample <- sample.int(n = nrow(my_data), size = floor(.66*nrow(my_data)), replace = F)
-train <- my_data[sample, ]
-test  <- my_data[-sample, ]
+##sample <- sample.int(n = nrow(my_data), size = floor(.66*nrow(my_data)), replace = F)
+sample <- sample(1:3, size = nrow(my_data), prob = c(.6, .2, .2), replace = T)
+train <- my_data[sample == 1, ]
+validation <- my_data[sample ==2, ]
+test  <- my_data[sample == 3, ]
 
-x <- train[,4:17]
-y <- train[,18]
+x <- validation[,4:17]
+y <- validation[,18]
 bestmtry <- tuneRF(x, y, stepFactor=1.5, improve=1e-5, ntree=300)
 
 rf = randomForest(genre ~ energy + danceability + speechiness + valence + liveness + instrumentalness
-                    + acousticness + loudness + popularity + tempo + mode + explicit + key,  ntree = 300,data = train, mtry=3)
+                    + acousticness + loudness + popularity + tempo + mode + explicit + key,  ntree = 100,data = train, mtry=4)
 plot(rf, main = "Random Forest Algorithm")
 legend("topright", 
        legend = c("OOB", "country", "edm", "metal", "pop", "rap", "rock"),
